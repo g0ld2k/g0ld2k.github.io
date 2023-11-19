@@ -1,8 +1,6 @@
 ---
-theme: orange
 title: Contadino
 description: Master Your Focus, One Session at a Time
-appiconpath: assets/images/contadino-icon.png
 ---
 
 ![Contadino running on iOS, iPadOS, and macOS](/assets/images/Devices.png "Contadino runs on iOS/iPadOS/macOS/watchOS")
@@ -32,3 +30,5 @@ appiconpath: assets/images/contadino-icon.png
 ## Join the Contadino Community:
 
 Embrace a more focused and productive lifestyle with Contadino. Whether you’re a student, a freelancer, or a professional, our app is designed to help you achieve your goals with greater efficiency and less stress. Download Contadino today and start transforming the way you work and live!
+
+[Privacy Policy](/Contadino/privacy)
