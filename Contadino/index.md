@@ -7,6 +7,10 @@ appiconpath: assets/images/contadino-icon.png
 
 ![Contadino running on iOS, iPadOS, and macOS](/assets/images/Devices.png "Contadino runs on iOS/iPadOS/macOS/watchOS")
 
+<p align="center">
+  <a href="https://testflight.apple.com/join/QuDLZc7O"><img src="/assets/images/testflight.png" /></a>
+</p>
+
 **Welcome to Contadino,** where productivity meets simplicity. Contadino is designed for macOS, iOS, iPhoneOS, and watchOS, it revolutionizes the way you manage your time and focus. Inspired by the Pomodoro technique, Contadino is more than just a time management app—it's your personal sidekick in conquering the day with a smile.
 
 ## Key Features:
