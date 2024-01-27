@@ -34,3 +34,8 @@ Embrace a more focused and productive lifestyle with Contadino. Whether you’re
 [Privacy Policy](/Contadino/privacy)
 
 [Terms of Use](/Contadino/tou)
+
+## Support
+
+You can reach support for Contadino by contacting me via [contadino@g0ld2k.com](mailto:contadino@g0ld2k.com) or reach out to me on [Mastadon](https://techhub.social/@g0ld2k).
+
