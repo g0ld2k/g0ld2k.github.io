@@ -1,0 +1,197 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Custom styles for app showcase */
+
+/* Modern color scheme */
+:root {
+  --primary-color: #007AFF;
+  --secondary-color: #5856D6;
+  --accent-color: #FF9500;
+  --text-dark: #1d1d1f;
+  --text-light: #86868b;
+  --bg-light: #f5f5f7;
+  --border-color: #d2d2d7;
+}
+
+/* Clean up the default minimal theme */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Desktop layout adjustments */
+@media (min-width: 769px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 40px;
+    align-items: start;
+  }
+  
+  header {
+    position: sticky;
+    top: 40px;
+    width: 250px;
+  }
+  
+  section {
+    min-height: 100vh;
+  }
+}
+
+header {
+  padding: 40px 0;
+  border-bottom: 1px solid var(--border-color);
+  text-align: center;
+}
+
+/* Mobile layout - keep header full width */
+@media (max-width: 768px) {
+  .wrapper {
+    display: block;
+  }
+  
+  header {
+    border-bottom: 1px solid var(--border-color);
+    border-right: none;
+  }
+}
+
+header h1 {
+  color: var(--text-dark);
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header p {
+  color: var(--text-light);
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+/* Hide GitHub project link - we'll style our own */
+header .view {
+  display: none;
+}
+
+/* Main content styling */
+section {
+  padding: 60px 0;
+}
+
+/* App showcase grid */
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 40px;
+  margin: 40px 0;
+}
+
+.app-card {
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid var(--border-color);
+}
+
+.app-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+.app-card h2 {
+  color: var(--text-dark);
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.app-card p {
+  color: var(--text-light);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.app-link {
+  display: inline-block;
+  background: var(--primary-color);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.app-link:hover {
+  background: #0051d5;
+  color: white;
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.hero h1 {
+  font-size: 3.5em;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 1.4em;
+  color: var(--text-light);
+  margin-bottom: 40px;
+}
+
+/* Footer styling */
+footer {
+  border-top: 1px solid var(--border-color);
+  padding: 30px 0;
+  text-align: center;
+  color: var(--text-light);
+  font-size: 0.9em;
+}
+
+footer a {
+  color: var(--primary-color);
+}
+
+/* Additional responsive adjustments */
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 0 15px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5em;
+  }
+  
+  .app-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .app-card {
+    padding: 20px;
+  }
+  
+  header {
+    padding: 20px 0;
+  }
+}

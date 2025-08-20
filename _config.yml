@@ -22,13 +22,13 @@ title: g0ld2k.com
 email: chris@g0ld2k.com
 description: >- # this means to ignore newlines until "baseurl:"
   Apps and musings of an iOS Developer
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "g0ld2k.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://g0ld2k.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: g0ld2k
-github_username:  g0ld2k
+github_username: g0ld2k
 
 # Build settings
-theme: jekyll-theme-tactile
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 

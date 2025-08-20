@@ -11,11 +11,12 @@ This is a Jekyll-based GitHub Pages site for g0ld2k.com, serving as a portfolio/
 
 ## Architecture
 
-The site uses a simple Jekyll structure with the Tactile theme:
+The site uses Jekyll with the Minimal theme + custom styling:
 
-- `index.md` - Main landing page with app links
+- `index.md` - Main landing page with hero section and app showcase cards
 - `Contadino/` - App page with features, TestFlight link, privacy policy, and terms
 - `DistanceTrack/` - App page with features, TestFlight link, and privacy policy
+- `assets/css/style.scss` - Custom SCSS overriding minimal theme with modern design
 - `assets/images/` - App icons, hero images, and marketing assets
 - `_config.yml` - Jekyll configuration with site metadata
 - `_site/` - Generated static site (auto-generated, don't edit)
