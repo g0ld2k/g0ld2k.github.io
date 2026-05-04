@@ -3,39 +3,68 @@ title: Contadino
 description: Master Your Focus, One Session at a Time
 ---
 
-![Contadino running on iOS, iPadOS, and macOS](/assets/images/Devices.png "Contadino runs on iOS/iPadOS/macOS/watchOS")
+<article class="product-page product-contadino">
+  <section class="product-hero">
+    <div class="product-copy">
+      <p class="eyebrow">Contadino</p>
+      <h1>Master your focus, one session at a time.</h1>
+      <p class="hero-subtitle">A Pomodoro-style focus tracker for macOS, iOS, iPadOS, visionOS, and watchOS that keeps the ritual simple: start, focus, reflect, repeat.</p>
+      <div class="hero-actions">
+        <a href="https://apps.apple.com/us/app/contadino/id1672167389" class="button button-primary">View on the App Store</a>
+      </div>
+    </div>
+    <figure class="product-media">
+      <img src="/assets/images/Devices.png" alt="Contadino running on iPhone, iPad, and Mac">
+    </figure>
+  </section>
 
-<p align="center">
-  <a href="https://testflight.apple.com/join/QuDLZc7O"><img src="/assets/images/testflight.png" /></a>
-</p>
+  <section class="intro-band">
+    <p><strong>Welcome to Contadino.</strong> It is built for people who want a clear signal to begin, a gentle record of what happened, and a tiny bit of encouragement when the day gets noisy.</p>
+  </section>
 
-**Welcome to Contadino,** where productivity meets simplicity. Contadino is designed for macOS, iOS, iPhoneOS, and watchOS, it revolutionizes the way you manage your time and focus. Inspired by the Pomodoro technique, Contadino is more than just a time management app—it's your personal sidekick in conquering the day with a smile.
+  <section class="feature-section">
+    <div class="section-heading">
+      <p class="eyebrow">Key features</p>
+      <h2>Focus tools without the fuss.</h2>
+    </div>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <h3>Track focus sessions</h3>
+        <p>Divide work into focused intervals and keep a useful history of completed sessions.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Monitor interruptions</h3>
+        <p>Log both completed and interrupted sessions so your patterns become easier to understand.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Works across Apple devices</h3>
+        <p>Use Contadino on macOS, iOS, iPadOS, visionOS, and watchOS when your work shifts screens.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Customizable rhythm</h3>
+        <p>Tune focus and break lengths so the app follows your real workflow.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Helpful statistics</h3>
+        <p>Review your focus history and spot the habits that help you make progress.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Privacy-focused</h3>
+        <p>Your data stays on your device and/or in your iCloud account.</p>
+      </div>
+    </div>
+  </section>
 
-## Key Features:
-
-- **Track Focus Sessions:** Contadino helps you divide your work into focused intervals, making it easier to manage tasks without feeling overwhelmed. Each session is meticulously logged, giving you insights into your productivity patterns.
-
-- **Monitor Interruptions:** Life happens, and distractions are inevitable. Contadino uniquely tracks both completed and interrupted sessions, helping you understand and reduce interruptions over time.
-
-- **Cross-Platform Accessibility:** With seamless integration across macOS, iOS, iPhoneOS, and watchOS, Contadino is always at your fingertips, whether you’re on your laptop, smartphone, or Apple Watch.
-
-- **Simple and Intuitive Design:** Contadino's user-friendly interface ensures that tracking your focus sessions is as straightforward as it is effective. Spend less time figuring out the app and more time focusing on what matters.
-
-- **Customizable Sessions:** Tailor the length of your focus sessions and breaks to suit your personal workflow. Contadino adapts to your needs, making it a versatile tool for various tasks and concentration levels.
-
-- **Insightful Statistics:** Get detailed reports on your focus sessions, helping you identify productive patterns and areas for improvement. Understanding your work habits has never been easier.
-
-- **Privacy-Focused:** At Contadino, we respect your privacy. All data is securely stored on your device and/or iCloud, ensuring that your information remains confidential.
-
-## Join the Contadino Community:
-
-Embrace a more focused and productive lifestyle with Contadino. Whether you’re a student, a freelancer, or a professional, our app is designed to help you achieve your goals with greater efficiency and less stress. Download Contadino today and start transforming the way you work and live!
-
-[Privacy Policy](/Contadino/privacy)
-
-[Terms of Use](/Contadino/tou)
-
-## Support
-
-You can reach support for Contadino by contacting me via [contadino@g0ld2k.com](mailto:contadino@g0ld2k.com) or reach out to me on [Mastadon](https://techhub.social/@g0ld2k).
-
+  <section class="resource-band">
+    <div>
+      <p class="eyebrow">Details</p>
+      <h2>Policies and support</h2>
+    </div>
+    <div class="resource-links">
+      <a href="/Contadino/privacy">Privacy Policy</a>
+      <a href="/Contadino/tou">Terms of Use</a>
+      <a href="mailto:contadino@g0ld2k.com">contadino@g0ld2k.com</a>
+      <a href="https://techhub.social/@g0ld2k">Mastodon</a>
+    </div>
+  </section>
+</article>
