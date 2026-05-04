@@ -1,0 +1,56 @@
+{% assign product = include.product %}
+<article class="product-page">
+  <section class="product-hero">
+    <div class="product-copy">
+      <p class="eyebrow">{{ product.eyebrow }}</p>
+      <h1>{{ product.hero_title }}</h1>
+      <p class="hero-subtitle">{{ product.subtitle }}</p>
+      <div class="hero-actions">
+        <a href="{{ product.app_store_url }}" class="button button-primary">View on the App Store</a>
+      </div>
+    </div>
+    <figure class="product-media{% if product.media_phone %} product-media-phone{% endif %}">
+      <picture>
+        {% if product.image_png %}
+          <source type="image/png" srcset="{{ product.image_png | relative_url }} 1x{% if product.image_png_2x %}, {{ product.image_png_2x | relative_url }} 2x{% endif %}">
+        {% endif %}
+        <img src="{{ product.image | relative_url }}" alt="{{ product.image_alt }}" loading="eager" decoding="async">
+      </picture>
+    </figure>
+  </section>
+
+  <section class="intro-band">
+    <p><strong>{{ product.intro_lead }}</strong> {{ product.intro_body }}</p>
+  </section>
+
+  <section class="feature-section">
+    <div class="section-heading">
+      <p class="eyebrow">Key features</p>
+      <h2>{{ product.feature_heading }}</h2>
+    </div>
+    <div class="feature-grid">
+      {% for feature in include.features %}
+        <div class="feature-card">
+          <h3>{{ feature.title }}</h3>
+          <p>{{ feature.body }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="resource-band">
+    <div>
+      <p class="eyebrow">Details</p>
+      <h2>Policies and support</h2>
+    </div>
+    <div class="resource-links">
+      {% for resource in include.resources %}
+        {% if resource.url contains '://' or resource.url contains 'mailto:' %}
+          <a href="{{ resource.url }}">{{ resource.label }}</a>
+        {% else %}
+          <a href="{{ resource.url | relative_url }}">{{ resource.label }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+</article>

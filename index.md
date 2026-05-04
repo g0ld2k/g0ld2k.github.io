@@ -9,16 +9,22 @@ layout: default
     <p class="hero-subtitle">I make Apple-platform apps for problems I keep running into: focus timers, distance goals, and little tools that make the day smoother.</p>
     <div class="hero-actions" aria-label="Featured app links">
       <a href="#apps" class="button button-primary">Explore apps</a>
-      <a href="/Contadino/" class="button button-quiet">Start with Contadino</a>
+      <a href="/Contadino/" class="button">Start with Contadino</a>
     </div>
   </div>
 
   <div class="hero-board" aria-label="App preview collage">
     <figure class="hero-shot hero-shot-large">
-      <img src="/assets/images/Devices.png" alt="Contadino running across Apple devices">
+      <picture>
+        <source type="image/png" srcset="/assets/images/Devices-800.png 800w, /assets/images/Devices-1200.png 1200w" sizes="(max-width: 720px) 100vw, 800px">
+        <img src="/assets/images/Devices.png" alt="Contadino running across Apple devices" loading="eager" decoding="async" fetchpriority="high">
+      </picture>
     </figure>
     <figure class="hero-shot hero-shot-small">
-      <img src="/assets/images/distance-track-hero.png" alt="Distance Track running on iPhone">
+      <picture>
+        <source type="image/png" srcset="/assets/images/distance-track-hero-520.png 520w" sizes="250px">
+        <img src="/assets/images/distance-track-hero.png" alt="Distance Track running on iPhone" loading="lazy" decoding="async">
+      </picture>
     </figure>
     <span class="sticker sticker-focus">focus</span>
     <span class="sticker sticker-distance">distance</span>
@@ -47,7 +53,7 @@ layout: default
   </div>
 
   <div class="app-grid">
-    <article class="app-card app-card-contadino">
+    <article class="app-card">
       <div class="app-card-copy">
         <p class="app-kicker">Focus timer</p>
         <h3>Contadino</h3>
@@ -61,11 +67,14 @@ layout: default
         <a href="/Contadino/" class="button button-primary">Learn more</a>
       </div>
       <div class="app-card-media">
-        <img src="/assets/images/Devices.png" alt="Contadino app screenshots on iPhone and Mac">
+        <picture>
+          <source type="image/png" srcset="/assets/images/Devices-800.png 800w, /assets/images/Devices-1200.png 1200w" sizes="(max-width: 980px) 100vw, 680px">
+          <img src="/assets/images/Devices.png" alt="Contadino app screenshots on iPhone and Mac" loading="lazy" decoding="async">
+        </picture>
       </div>
     </article>
 
-    <article class="app-card app-card-distance">
+    <article class="app-card">
       <div class="app-card-copy">
         <p class="app-kicker">Goal tracker</p>
         <h3>Distance Track</h3>
@@ -78,7 +87,10 @@ layout: default
         <a href="/DistanceTrack/" class="button button-primary">Learn more</a>
       </div>
       <div class="app-card-media app-card-media-phone">
-        <img src="/assets/images/distance-track-hero.png" alt="Distance Track app screenshots on iPhone">
+        <picture>
+          <source type="image/png" srcset="/assets/images/distance-track-hero-520.png 520w, /assets/images/distance-track-hero-900.png 900w" sizes="(max-width: 980px) 70vw, 430px">
+          <img src="/assets/images/distance-track-hero.png" alt="Distance Track app screenshots on iPhone" loading="lazy" decoding="async">
+        </picture>
       </div>
     </article>
   </div>
