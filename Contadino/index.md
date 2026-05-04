@@ -7,10 +7,12 @@ product:
   hero_title: Master your focus, one session at a time.
   subtitle: "A Pomodoro-style focus tracker for macOS, iOS, iPadOS, visionOS, and watchOS that keeps the ritual simple: start, focus, reflect, repeat."
   app_store_url: https://apps.apple.com/us/app/contadino/id1672167389
-  image: /assets/images/Devices.png
+  image: /assets/images/Devices-1200.png
   image_png: /assets/images/Devices-800.png
   image_png_2x: /assets/images/Devices-1200.png
   image_alt: Contadino running on iPhone, iPad, and Mac
+  image_width: 1200
+  image_height: 546
   intro_lead: Welcome to Contadino.
   intro_body: It is built for people who want a clear signal to begin, a gentle record of what happened, and a tiny bit of encouragement when the day gets noisy.
   feature_heading: Focus tools without the fuss.

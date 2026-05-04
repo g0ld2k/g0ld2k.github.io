@@ -14,7 +14,7 @@
         {% if product.image_png %}
           <source type="image/png" srcset="{{ product.image_png | relative_url }} 1x{% if product.image_png_2x %}, {{ product.image_png_2x | relative_url }} 2x{% endif %}">
         {% endif %}
-        <img src="{{ product.image | relative_url }}" alt="{{ product.image_alt }}" loading="eager" decoding="async">
+        <img src="{{ product.image | relative_url }}" alt="{{ product.image_alt }}" width="{{ product.image_width }}" height="{{ product.image_height }}" loading="eager" decoding="async">
       </picture>
     </figure>
   </section>
@@ -45,11 +45,7 @@
     </div>
     <div class="resource-links">
       {% for resource in include.resources %}
-        {% if resource.url contains '://' or resource.url contains 'mailto:' %}
-          <a href="{{ resource.url }}">{{ resource.label }}</a>
-        {% else %}
-          <a href="{{ resource.url | relative_url }}">{{ resource.label }}</a>
-        {% endif %}
+        <a href="{{ resource.url | relative_url }}">{{ resource.label }}</a>
       {% endfor %}
     </div>
   </section>

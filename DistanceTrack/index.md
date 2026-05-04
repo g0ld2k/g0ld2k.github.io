@@ -7,10 +7,12 @@ product:
   hero_title: Go the distance, then see the story.
   subtitle: A goal tracker for walking, running, and cycling progress, powered by Apple Health and built for iPhone and iPad.
   app_store_url: https://apps.apple.com/us/app/distance-track/id6476840699
-  image: /assets/images/distance-track-hero.png
+  image: /assets/images/distance-track-hero-900.png
   image_png: /assets/images/distance-track-hero-520.png
   image_png_2x: /assets/images/distance-track-hero-900.png
   image_alt: Distance Track running on iPhone
+  image_width: 900
+  image_height: 872
   media_phone: true
   intro_lead: Welcome to Distance Track.
   intro_body: Create a goal, choose the workouts that count toward it, and watch your progress build into a simple visual milestone.

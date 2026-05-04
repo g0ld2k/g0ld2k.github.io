@@ -17,17 +17,17 @@ layout: default
     <figure class="hero-shot hero-shot-large">
       <picture>
         <source type="image/png" srcset="/assets/images/Devices-800.png 800w, /assets/images/Devices-1200.png 1200w" sizes="(max-width: 720px) 100vw, 800px">
-        <img src="/assets/images/Devices.png" alt="Contadino running across Apple devices" loading="eager" decoding="async" fetchpriority="high">
+        <img src="/assets/images/Devices-1200.png" alt="Contadino running across Apple devices" width="1200" height="546" loading="eager" decoding="async" fetchpriority="high">
       </picture>
     </figure>
     <figure class="hero-shot hero-shot-small">
       <picture>
         <source type="image/png" srcset="/assets/images/distance-track-hero-520.png 520w" sizes="250px">
-        <img src="/assets/images/distance-track-hero.png" alt="Distance Track running on iPhone" loading="lazy" decoding="async">
+        <img src="/assets/images/distance-track-hero-520.png" alt="Distance Track running on iPhone" width="520" height="504" loading="lazy" decoding="async">
       </picture>
     </figure>
-    <span class="sticker sticker-focus">focus</span>
-    <span class="sticker sticker-distance">distance</span>
+    <span class="sticker sticker-focus" aria-hidden="true">focus</span>
+    <span class="sticker sticker-distance" aria-hidden="true">distance</span>
   </div>
 </section>
 
@@ -69,7 +69,7 @@ layout: default
       <div class="app-card-media">
         <picture>
           <source type="image/png" srcset="/assets/images/Devices-800.png 800w, /assets/images/Devices-1200.png 1200w" sizes="(max-width: 980px) 100vw, 680px">
-          <img src="/assets/images/Devices.png" alt="Contadino app screenshots on iPhone and Mac" loading="lazy" decoding="async">
+          <img src="/assets/images/Devices-1200.png" alt="Contadino app screenshots on iPhone and Mac" width="1200" height="546" loading="lazy" decoding="async">
         </picture>
       </div>
     </article>
@@ -89,7 +89,7 @@ layout: default
       <div class="app-card-media app-card-media-phone">
         <picture>
           <source type="image/png" srcset="/assets/images/distance-track-hero-520.png 520w, /assets/images/distance-track-hero-900.png 900w" sizes="(max-width: 980px) 70vw, 430px">
-          <img src="/assets/images/distance-track-hero.png" alt="Distance Track app screenshots on iPhone" loading="lazy" decoding="async">
+          <img src="/assets/images/distance-track-hero-900.png" alt="Distance Track app screenshots on iPhone" width="900" height="872" loading="lazy" decoding="async">
         </picture>
       </div>
     </article>

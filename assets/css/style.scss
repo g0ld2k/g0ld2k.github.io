@@ -46,6 +46,7 @@ body {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 picture {
@@ -79,7 +80,7 @@ p {
   z-index: 20;
   transform: translateY(-140%);
   padding: 0.6rem 0.85rem;
-  color: #081210;
+  color: var(--paper);
   background: var(--green);
   border-radius: var(--radius);
 }
@@ -121,7 +122,7 @@ p {
   height: 46px;
   display: grid;
   place-items: center;
-  color: #081210;
+  color: var(--paper);
   background: var(--green);
   border: 1px solid rgba(156, 255, 158, 0.75);
   border-radius: var(--radius);
@@ -247,13 +248,13 @@ p {
 }
 
 .button-primary {
-  color: #081210;
+  color: var(--paper);
   background: linear-gradient(135deg, var(--green), var(--mint));
   border-color: transparent;
 }
 
 .button-primary:hover {
-  color: #081210;
+  color: var(--paper);
 }
 
 .hero-board {
@@ -302,7 +303,7 @@ p {
   position: absolute;
   z-index: 4;
   padding: 8px 12px;
-  color: #081210;
+  color: var(--paper);
   border-radius: var(--radius);
   background: var(--green);
   font-size: 0.72rem;
