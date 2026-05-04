@@ -8,8 +8,8 @@ product:
   subtitle: "A Pomodoro-style focus tracker for macOS, iOS, iPadOS, visionOS, and watchOS that keeps the ritual simple: start, focus, reflect, repeat."
   app_store_url: https://apps.apple.com/us/app/contadino/id1672167389
   image: /assets/images/Devices-1200.png
-  image_png: /assets/images/Devices-800.png
-  image_png_2x: /assets/images/Devices-1200.png
+  image_srcset: "/assets/images/Devices-800.png 800w, /assets/images/Devices-1200.png 1200w"
+  image_sizes: "(max-width: 980px) 100vw, 600px"
   image_alt: Contadino running on iPhone, iPad, and Mac
   image_width: 1200
   image_height: 546

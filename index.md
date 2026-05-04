@@ -13,7 +13,7 @@ layout: default
     </div>
   </div>
 
-  <div class="hero-board" aria-label="App preview collage">
+  <div class="hero-board" role="group" aria-label="App preview collage">
     <figure class="hero-shot hero-shot-large">
       <picture>
         <source type="image/png" srcset="/assets/images/Devices-800.png 800w, /assets/images/Devices-1200.png 1200w" sizes="(max-width: 720px) 100vw, 800px">
@@ -23,7 +23,7 @@ layout: default
     <figure class="hero-shot hero-shot-small">
       <picture>
         <source type="image/png" srcset="/assets/images/distance-track-hero-520.png 520w" sizes="250px">
-        <img src="/assets/images/distance-track-hero-520.png" alt="Distance Track running on iPhone" width="520" height="504" loading="lazy" decoding="async">
+        <img src="/assets/images/distance-track-hero-520.png" alt="Distance Track running on iPhone" width="520" height="504" loading="eager" decoding="async">
       </picture>
     </figure>
     <span class="sticker sticker-focus" aria-hidden="true">focus</span>

@@ -8,8 +8,8 @@ product:
   subtitle: A goal tracker for walking, running, and cycling progress, powered by Apple Health and built for iPhone and iPad.
   app_store_url: https://apps.apple.com/us/app/distance-track/id6476840699
   image: /assets/images/distance-track-hero-900.png
-  image_png: /assets/images/distance-track-hero-520.png
-  image_png_2x: /assets/images/distance-track-hero-900.png
+  image_srcset: "/assets/images/distance-track-hero-520.png 520w, /assets/images/distance-track-hero-900.png 900w"
+  image_sizes: "(max-width: 980px) 80vw, 520px"
   image_alt: Distance Track running on iPhone
   image_width: 900
   image_height: 872
