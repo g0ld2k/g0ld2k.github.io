@@ -1,31 +1,40 @@
 ---
+layout: default
 title: Distance Track
 description: Go the Distance, Track, Visualize, Achieve!
+product:
+  eyebrow: Distance Track
+  hero_title: Go the distance, then see the story.
+  subtitle: A goal tracker for walking, running, and cycling progress, powered by Apple Health and built for iPhone and iPad.
+  app_store_url: https://apps.apple.com/us/app/distance-track/id6476840699
+  image: /assets/images/distance-track-hero-900.png
+  image_srcset: "/assets/images/distance-track-hero-520.png 520w, /assets/images/distance-track-hero-900.png 900w"
+  image_sizes: "(max-width: 980px) 80vw, 520px"
+  image_alt: Distance Track running on iPhone
+  image_width: 900
+  image_height: 872
+  media_phone: true
+  intro_lead: Welcome to Distance Track.
+  intro_body: Create a goal, choose the workouts that count toward it, and watch your progress build into a simple visual milestone.
+  feature_heading: Progress you can glance at.
+features:
+  - title: Apple Health integration
+    body: Import recent walking, running, and cycling workouts from Apple Health.
+  - title: Visual goals
+    body: See how close you are to each distance milestone without digging through data.
+  - title: iPhone and iPad
+    body: Keep your goals close whether you are checking progress on a phone or a larger screen.
+  - title: Simple setup
+    body: Create goals around the workouts that matter to you and get moving.
+  - title: Privacy-focused
+    body: Your data stays on your device and/or in your iCloud account.
+resources:
+  - label: Privacy Policy
+    url: /DistanceTrack/privacy
+  - label: distance.track@g0ld2k.com
+    url: mailto:distance.track@g0ld2k.com
+  - label: Mastodon
+    url: https://techhub.social/@g0ld2k
 ---
 
-![Distance Track running on iOS](/assets/images/distance-track-hero.png "Distance Track runs on iOS & iPadOS")
-
-<p align="center">
-  <a href="https://testflight.apple.com/join/yA1N8Ykd"><img src="/assets/images/testflight.png" /></a>
-</p>
-
-**Welcome to Distance Track!** Dive into a world where tracking your walking, running, or cycling distances becomes a seamless part of your fitness journey. Create your goal, choose the workouts you want to track for it, set your sights on new distance goals, and watch your progress unfold in a visually captivating way.
-
-## Key Features:
-
-- **Integrates with Apple Health:** Distance Track effortlessly syncs with Apple Health to import your latest workout stats, ensuring your progress is always up-to-date.
-- **Visualize Your Goals:** Embark on a visual journey towards your distance milestones. Our easy-to-understand visualizations offer a clear snapshot of how close you are to achieving your dreams.
-- **Cross-Platform Accessibility:** Whether you're switching between your iPhone and iPad, Distance Track keeps you connected to your goals with smooth integration across iOS and iPadOS devices.
-- **Simple and Intuitive Design:** We've crafted Distance Track to be as user-friendly as possible. Dive into tracking your goals without the hassle of a complicated interface—because your energy should be spent on reaching your goals, not deciphering an app.
-- **Privacy-Focused:** Your privacy is paramount. Rest assured, all your data is securely housed on your device and/or iCloud, shielded from prying eyes.
-
-## Join the Distance Track Community:
-
-Whether you enjoy leisurely walks, are a gym enthusiast, or are training for a marathon (or anything in between), Distance Track is your go-to companion for meeting and exceeding your distance goals. Embrace a dedicated approach to tracking and visualizing your fitness achievements. Download Distance Track now and revolutionize the way you pursue your goals!
-
-[Privacy Policy](/DistanceTrack/privacy)
-
-## Support
-
-You can reach support for Distance Track by contacting me via [distance.track@g0ld2k.com](mailto:distance.track@g0ld2k.com) or reach out to me on [Mastadon](https://techhub.social/@g0ld2k).
-
+{% include product_page.html product=page.product features=page.features resources=page.resources %}
