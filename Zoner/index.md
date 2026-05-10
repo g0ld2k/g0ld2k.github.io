@@ -6,8 +6,7 @@ product:
   eyebrow: Zoner
   hero_title: Know the time, wherever your team is.
   subtitle: "A timezone coordination app for distributed teams. See who's available, plan across time zones without mental math, and keep your whole crew in sync — on Mac and iPhone."
-  # TODO: replace with TestFlight URL when available
-  cta_url: "#testflight"
+  cta_url: "https://testflight.apple.com/join/KSXAfFvJ"
   cta_label: "Join TestFlight"
   intro_lead: Zoner is coming soon.
   intro_body: It answers one question instantly — "What time is it for the people I work with?" — with a human-first view of your teammates, locations, and working hours.
