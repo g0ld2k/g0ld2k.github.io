@@ -42,7 +42,7 @@ layout: default
   </div>
   <div>
     <strong>On the App Store</strong>
-    <span><a href="https://apps.apple.com/us/app/contadino/id1672167389">Contadino</a> and <a href="https://apps.apple.com/us/app/distance-track/id6476840699">Distance Track</a> are available now.</span>
+    <span><a href="https://apps.apple.com/us/app/contadino/id1672167389">Contadino</a> and <a href="https://apps.apple.com/us/app/distance-track/id6476840699">Distance Track</a> are available now. <a href="/Zoner/">Zoner</a> is coming soon.</span>
   </div>
 </section>
 
@@ -91,6 +91,20 @@ layout: default
           <source type="image/png" srcset="/assets/images/distance-track-hero-520.png 520w, /assets/images/distance-track-hero-900.png 900w" sizes="(max-width: 980px) 70vw, 430px">
           <img src="/assets/images/distance-track-hero-900.png" alt="Distance Track app screenshots on iPhone" width="900" height="872" loading="lazy" decoding="async">
         </picture>
+      </div>
+    </article>
+
+    <article class="app-card">
+      <div class="app-card-copy">
+        <p class="app-kicker">Timezone coordinator</p>
+        <h3>Zoner</h3>
+        <p>Instantly see what time it is for the people you work with. Built for distributed teams who need a human-first view of time zones, teammates, and availability — on Mac and iPhone.</p>
+        <div class="tag-row" aria-label="Zoner platforms">
+          <span>macOS</span>
+          <span>iOS</span>
+          <span>Coming Soon</span>
+        </div>
+        <a href="/Zoner/" class="button button-primary">Learn more</a>
       </div>
     </article>
   </div>

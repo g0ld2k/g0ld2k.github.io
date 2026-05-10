@@ -1,14 +1,17 @@
 {% assign product = include.product %}
+{% assign cta_url = product.cta_url | default: product.app_store_url %}
+{% assign cta_label = product.cta_label | default: "View on the App Store" %}
 <article class="product-page">
-  <section class="product-hero">
+  <section class="product-hero{% unless product.image %} product-hero-no-media{% endunless %}">
     <div class="product-copy">
       <p class="eyebrow">{{ product.eyebrow }}</p>
       <h1>{{ product.hero_title }}</h1>
       <p class="hero-subtitle">{{ product.subtitle }}</p>
       <div class="hero-actions">
-        <a href="{{ product.app_store_url }}" class="button button-primary">View on the App Store</a>
+        <a href="{{ cta_url }}" class="button button-primary">{{ cta_label }}</a>
       </div>
     </div>
+    {% if product.image %}
     <figure class="product-media{% if product.media_phone %} product-media-phone{% endif %}">
       <picture>
         {% if product.image_srcset %}
@@ -17,6 +20,7 @@
         <img src="{{ product.image | relative_url }}" alt="{{ product.image_alt }}" width="{{ product.image_width }}" height="{{ product.image_height }}" loading="eager" decoding="async">
       </picture>
     </figure>
+    {% endif %}
   </section>
 
   <section class="intro-band">
