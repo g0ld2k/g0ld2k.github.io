@@ -22,8 +22,8 @@ layout: default
     </figure>
     <figure class="hero-shot hero-shot-small">
       <picture>
-        <source type="image/png" srcset="/assets/images/zoner-hero-800.png 800w" sizes="250px">
-        <img src="/assets/images/zoner-hero-800.png" alt="Zoner showing saved time zones and people" width="800" height="427" loading="eager" decoding="async">
+        <source type="image/png" srcset="/assets/images/zoner-hero-520.png 520w, /assets/images/zoner-hero-800.png 800w" sizes="250px">
+        <img src="/assets/images/zoner-hero-520.png" alt="Zoner showing saved time zones and people" width="520" height="277" loading="eager" decoding="async">
       </picture>
     </figure>
     <span class="sticker sticker-focus" aria-hidden="true">focus</span>
