@@ -6,10 +6,10 @@ layout: default
   <div class="hero-copy">
     <p class="eyebrow">Independent Apple-platform apps</p>
     <h1>Small apps with bright ideas.</h1>
-    <p class="hero-subtitle">I make Apple-platform apps for problems I keep running into: focus timers, distance goals, and little tools that make the day smoother.</p>
+    <p class="hero-subtitle">I make Apple-platform apps for problems I keep running into: focus timers, distance goals, time zone coordination, and little tools that make the day smoother.</p>
     <div class="hero-actions" aria-label="Featured app links">
       <a href="#apps" class="button button-primary">Explore apps</a>
-      <a href="/Contadino/" class="button">Start with Contadino</a>
+      <a href="/Zoner/" class="button">Start with Zoner</a>
     </div>
   </div>
 
@@ -22,12 +22,12 @@ layout: default
     </figure>
     <figure class="hero-shot hero-shot-small">
       <picture>
-        <source type="image/png" srcset="/assets/images/distance-track-hero-520.png 520w" sizes="250px">
-        <img src="/assets/images/distance-track-hero-520.png" alt="Distance Track running on iPhone" width="520" height="504" loading="eager" decoding="async">
+        <source type="image/png" srcset="/assets/images/zoner-hero-520.png 520w, /assets/images/zoner-hero-800.png 800w" sizes="250px">
+        <img src="/assets/images/zoner-hero-520.png" alt="Zoner showing saved time zones and people" width="520" height="277" loading="eager" decoding="async">
       </picture>
     </figure>
     <span class="sticker sticker-focus" aria-hidden="true">focus</span>
-    <span class="sticker sticker-distance" aria-hidden="true">distance</span>
+    <span class="sticker sticker-distance" aria-hidden="true">zones</span>
   </div>
 </section>
 
@@ -42,7 +42,7 @@ layout: default
   </div>
   <div>
     <strong>On the App Store</strong>
-    <span><a href="https://apps.apple.com/us/app/contadino/id1672167389">Contadino</a> and <a href="https://apps.apple.com/us/app/distance-track/id6476840699">Distance Track</a> are available now.</span>
+    <span><a href="/Zoner/">Zoner</a> is on TestFlight, while <a href="https://apps.apple.com/us/app/contadino/id1672167389">Contadino</a> and <a href="https://apps.apple.com/us/app/distance-track/id6476840699">Distance Track</a> are on the App Store.</span>
   </div>
 </section>
 
@@ -53,6 +53,26 @@ layout: default
   </div>
 
   <div class="app-grid">
+    <article class="app-card">
+      <div class="app-card-copy">
+        <p class="app-kicker">Time zones</p>
+        <h3>Zoner</h3>
+        <p>Coordinate across distributed teams with locations, people, groups, working-hours awareness, and iCloud sync.</p>
+        <div class="tag-row" aria-label="Zoner platforms">
+          <span>macOS</span>
+          <span>iOS</span>
+          <span>iCloud</span>
+        </div>
+        <a href="/Zoner/" class="button button-primary">Learn more</a>
+      </div>
+      <div class="app-card-media">
+        <picture>
+          <source type="image/png" srcset="/assets/images/zoner-hero-800.png 800w, /assets/images/zoner-hero-1200.png 1200w" sizes="(max-width: 980px) 100vw, 680px">
+          <img src="/assets/images/zoner-hero-1200.png" alt="Zoner app screenshots showing time zones and people" width="1200" height="640" loading="lazy" decoding="async">
+        </picture>
+      </div>
+    </article>
+
     <article class="app-card">
       <div class="app-card-copy">
         <p class="app-kicker">Focus timer</p>

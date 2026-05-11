@@ -1,13 +1,15 @@
 {% assign product = include.product %}
-<article class="product-page">
+<article class="product-page{% if product.long_title %} product-page-long-title{% endif %}">
   <section class="product-hero">
     <div class="product-copy">
       <p class="eyebrow">{{ product.eyebrow }}</p>
       <h1>{{ product.hero_title }}</h1>
       <p class="hero-subtitle">{{ product.subtitle }}</p>
-      <div class="hero-actions">
-        <a href="{{ product.app_store_url }}" class="button button-primary">View on the App Store</a>
-      </div>
+      {% if product.app_store_url %}
+        <div class="hero-actions">
+          <a href="{{ product.app_store_url }}" class="button button-primary">{{ product.cta_label | default: "View on the App Store" }}</a>
+        </div>
+      {% endif %}
     </div>
     <figure class="product-media{% if product.media_phone %} product-media-phone{% endif %}">
       <picture>
