@@ -1,8 +1,13 @@
 ---
 layout: default
+app_order: 3
 title: Distance Track
 description: Go the Distance, Track, Visualize, Achieve!
 product:
+  theme: distance
+  shelf_summary: See your distance goals add up.
+  platforms: iPhone · iPad
+  availability: App Store
   eyebrow: Distance Track
   hero_title: Go the distance, then see the story.
   subtitle: A goal tracker for walking, running, and cycling progress, powered by Apple Health and built for iPhone and iPad.

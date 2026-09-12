@@ -40,7 +40,7 @@ Preserve app-specific support destinations and access to privacy policies and te
 
 ## Brand Commitments
 
-Preserve the g0ld2k.com identity, existing app names, and solo-developer identity. The user confirmed no additional binding brand or voice requirements. Existing app imagery is evidence of the products being showcased.
+Preserve the g0ld2k.com identity, existing app names, and solo-developer identity. The user prefers bold, fun colors and designs, but is not attached to the previous terminal/neon aesthetic. The approved scope is a full-site redesign. Existing app imagery is evidence of the products being showcased.
 
 ## Evidence on Hand
 
