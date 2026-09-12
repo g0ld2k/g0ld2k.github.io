@@ -20,7 +20,7 @@ description: Independent Apple apps by Chris. Explore Zoner, Contadino, and Dist
     <a class="edition-media{% if product.media_phone %} edition-media-phone{% endif %}" href="{{ app.url | relative_url }}" tabindex="-1" aria-hidden="true">
       <picture>
         <source srcset="{{ product.image_srcset }}" sizes="(max-width: 760px) 94vw, 33vw">
-        <img src="{{ product.image | relative_url }}" alt="" width="{{ product.image_width }}" height="{{ product.image_height }}" decoding="async" fetchpriority="{% if forloop.first %}high{% else %}auto{% endif %}">
+        <img src="{{ product.image | relative_url }}" alt="" width="{{ product.image_width }}" height="{{ product.image_height }}" decoding="async" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}" fetchpriority="{% if forloop.first %}high{% else %}auto{% endif %}">
       </picture>
     </a>
     <div class="edition-details">
