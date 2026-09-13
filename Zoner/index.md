@@ -1,10 +1,15 @@
 ---
 layout: default
+app_order: 1
 title: Zoner
 description: Time zone collaboration made simple.
 product:
+  theme: zoner
+  shelf_summary: Find a good time across time zones.
+  platforms: Mac · iPhone
+  availability: Beta · TestFlight
   eyebrow: Zoner
-  hero_title: "Time zone<br>collaboration<br>made simple."
+  hero_title: "Time zone collaboration made simple."
   long_title: true
   subtitle: A time zone coordination app for distributed teams, with locations, people, groups, working-hours awareness, iCloud sync, and a macOS menu bar helper.
   app_store_url: https://testflight.apple.com/join/KSXAfFvJ

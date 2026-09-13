@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<article class="document">
+  <a class="back-link" href="{% if page.app_url %}{{ page.app_url | relative_url }}{% else %}{{ '/' | relative_url }}#apps{% endif %}">{% include arrow.html direction="back" %}{% if page.app_name %}{{ page.app_name }}{% else %}All apps{% endif %}</a>
+  <header class="document-header">
+    <h1>{{ page.title }}</h1>
+    {% if page.description contains 'Last Updated' %}<p class="document-date">{{ page.description }}</p>{% endif %}
+  </header>
+  <div class="prose">{{ content }}</div>
+</article>
