@@ -1,13 +1,14 @@
 # AGENTS.md
 
-This file provides guidance to Codex (Codex.ai/code) when working with code in this repository.
+This is the canonical contributor guide for the g0ld2k.com Jekyll site.
 
 ## Project Overview
 
-This is a Jekyll-based GitHub Pages site for g0ld2k.com, serving as a portfolio/showcase for iOS apps. The site features two main apps:
+This is a Jekyll-based GitHub Pages site for g0ld2k.com, serving as a portfolio/showcase for iOS apps. The site features:
 
 - **Contadino**: A Pomodoro-style focus tracking app for macOS, iOS, iPadOS, and watchOS
 - **Distance Track**: A fitness tracking app for iOS and iPadOS that integrates with Apple Health
+- **Zoner**: A time-zone coordination app for macOS and iOS
 
 ## Architecture
 
@@ -16,6 +17,7 @@ The site uses Jekyll with the Minimal theme + custom styling:
 - `index.md` - Main landing page with hero section and app showcase cards
 - `Contadino/` - App page with features, TestFlight link, privacy policy, and terms
 - `DistanceTrack/` - App page with features, TestFlight link, and privacy policy
+- `Zoner/` - App page with product details, privacy policy, and support
 - `assets/css/style.scss` - Custom SCSS overriding minimal theme with modern design
 - `assets/images/` - App icons, hero images, and marketing assets
 - `_config.yml` - Jekyll configuration with site metadata
