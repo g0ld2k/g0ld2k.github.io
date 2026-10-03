@@ -18,6 +18,14 @@ If you add avatar photos for people, those images are stored by the app and may 
 - **App Group storage:** Zoner uses App Group storage so the main app, widgets, and the macOS menu bar helper can read the data they need to show your saved time zone information.
 - **Backup files:** If you export or import a backup, you choose the file location. Zoner reads or writes the selected file only to complete the import or export you requested.
 
+### **Managing and Deleting Your Data**
+
+Your synced app data is stored in your private iCloud account. We cannot access those private iCloud records or delete them remotely.
+
+You can delete individual locations, people, and groups using the app's delete controls. Deleting a group does not delete its people. iCloud synchronization depends on account availability and connectivity.
+
+If you use "Reset Local Data" during recovery, the app preserves a local recovery copy and creates a fresh store. This does not erase your iCloud data, and synced records may download again. Deleting items in the app does not remove previously exported backups or earlier local recovery copies.
+
 ### **Network Access**
 
 Zoner does not make network requests for analytics, advertising, or tracking. Network access is limited to iCloud sync and Apple system services used by the app, such as MapKit and iCloud.
