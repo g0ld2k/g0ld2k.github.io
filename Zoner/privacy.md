@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy for Zoner
-description: "Last Updated: May 10, 2026"
+description: "Last Updated: October 3, 2026"
 ---
 
 Zoner is built to keep your time zone coordination data private. The app does not include analytics, advertising, or tracking, and it does not send your app activity to us.
