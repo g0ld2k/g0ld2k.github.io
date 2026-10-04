@@ -3,7 +3,7 @@ layout: document
 app_name: Zoner
 app_url: /Zoner/
 title: Privacy Policy for Zoner
-description: "Last Updated: May 10, 2026"
+description: "Last Updated: October 3, 2026"
 ---
 
 Zoner is built to keep your time zone coordination data private. The app does not include analytics, advertising, or tracking, and it does not send your app activity to us.
@@ -20,6 +20,14 @@ If you add avatar photos for people, those images are stored by the app and may 
 - **iCloud and CloudKit:** If iCloud sync is enabled and available, Zoner syncs your locations, people, groups, preferences, and related records through your iCloud account. iCloud data is governed by Apple's privacy and iCloud terms.
 - **App Group storage:** Zoner uses App Group storage so the main app, widgets, and the macOS menu bar helper can read the data they need to show your saved time zone information.
 - **Backup files:** If you export or import a backup, you choose the file location. Zoner reads or writes the selected file only to complete the import or export you requested.
+
+## **Managing and Deleting Your Data**
+
+Your synced app data is stored in your private iCloud account. We cannot access those private iCloud records or delete them remotely.
+
+You can delete individual locations, people, and groups using the app's delete controls. Deleting a group does not delete its people. iCloud synchronization depends on account availability and connectivity.
+
+If you use "Reset Local Data" during recovery, the app preserves a local recovery copy and creates a fresh store. This does not erase your iCloud data, and synced records may download again. Deleting items in the app does not remove previously exported backups or earlier local recovery copies.
 
 ## **Network Access**
 
