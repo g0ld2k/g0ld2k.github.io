@@ -11,7 +11,7 @@ product:
   eyebrow: Zoner
   hero_title: "Time zone collaboration made simple."
   long_title: true
-  subtitle: A time zone coordination app for distributed teams, with locations, people, groups, working-hours awareness, iCloud sync, and a macOS menu bar helper.
+  subtitle: A time zone coordination app for distributed teams.
   app_store_url: https://testflight.apple.com/join/KSXAfFvJ
   cta_label: Join the TestFlight
   image: /assets/images/zoner-hero-1200.png

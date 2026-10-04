@@ -10,7 +10,7 @@ product:
   availability: App Store
   eyebrow: Distance Track
   hero_title: Go the distance, then see the story.
-  subtitle: A goal tracker for walking, running, and cycling progress, powered by Apple Health and built for iPhone and iPad.
+  subtitle: A goal tracker for walking, running, and cycling progress.
   app_store_url: https://apps.apple.com/us/app/distance-track/id6476840699
   image: /assets/images/distance-track-hero-900.png
   image_srcset: "/assets/images/distance-track-hero-520.png 520w, /assets/images/distance-track-hero-900.png 900w"

@@ -5,10 +5,15 @@ description: Independent Apple apps by Chris. Explore Zoner, Contadino, and Dist
 
 <section class="home-intro" aria-labelledby="intro-title">
   <h1 id="intro-title">Apps I make. For days like yours.</h1>
-  <p>I’m Chris, an independent developer making apps for Apple devices.</p>
+  <p>I’m Chris. I make apps for problems I keep running into.</p>
 </section>
 
 {% assign apps = site.pages | where_exp: "app", "app.product" | sort: "app_order" %}
+<nav class="app-index" aria-label="Choose an app">
+  {% for app in apps %}
+  <a href="{{ app.url | relative_url }}">{{ app.title }}</a>
+  {% endfor %}
+</nav>
 <section class="app-shelf" id="apps" aria-label="Explore my apps">
   {% for app in apps %}
   {% assign product = app.product %}

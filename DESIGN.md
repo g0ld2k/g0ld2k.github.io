@@ -169,7 +169,7 @@ Page regions and document surfaces have square edges. Actions use the pill radiu
 
 ### Buttons
 
-Confident, rounded actions pair ink text with paper fill; the closing product action reverses this assignment. Padding and radius are in frontmatter; minimum height is (56px), with an icon gap (10px). Hover changes the fill over (180ms) and moves the forward arrow right (3px) over (200ms), using the shared easing curve in the sidecar. Keyboard focus is a current-color outline (3px) offset by (5px). The implementation has no separate active-state treatment.
+Confident, rounded actions pair ink text with paper fill; the closing product action reverses this assignment. Padding and radius are in frontmatter; minimum height is (56px), with an icon gap (10px). Hover changes the fill over (180ms) and moves the forward arrow right (3px) over (200ms), using the shared easing curve in the sidecar. Keyboard focus is a current-color outline (3px) offset by (5px); dark actions use an ink outline to remain visible on paper. The implementation has no separate active-state treatment.
 
 ### Cards / Containers
 
@@ -177,7 +177,7 @@ App panels are full color sections with square corners and no border or shadow. 
 
 ### Navigation
 
-The bold wordmark is paired with ordinary text links. Links have a minimum height (44px), underline on hover and current-page state, and share the visible focus outline. Mobile navigation wraps without a menu drawer. The skip link becomes visible on keyboard focus.
+The bold wordmark is paired with ordinary text links. Links have a minimum height (44px), underline on hover and current-page state, and share the visible focus outline. Mobile navigation wraps without a menu drawer. At (760px) and below, a compact text index above the homepage shelf links directly to all three app pages. The skip link becomes visible on keyboard focus.
 
 ### Feature List
 
