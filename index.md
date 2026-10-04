@@ -9,12 +9,13 @@ description: Independent Apple apps by Chris. Explore Zoner, Contadino, and Dist
 </section>
 
 {% assign apps = site.pages | where_exp: "app", "app.product" | sort: "app_order" %}
+<div id="apps">
 <nav class="app-index" aria-label="Choose an app">
   {% for app in apps %}
   <a href="{{ app.url | relative_url }}">{{ app.title }}</a>
   {% endfor %}
 </nav>
-<section class="app-shelf" id="apps" aria-label="Explore my apps">
+<section class="app-shelf" aria-label="Explore my apps">
   {% for app in apps %}
   {% assign product = app.product %}
   <article class="app-edition theme-{{ product.theme }}" aria-labelledby="{{ product.theme }}-title">
@@ -36,3 +37,4 @@ description: Independent Apple apps by Chris. Explore Zoner, Contadino, and Dist
   </article>
   {% endfor %}
 </section>
+</div>
