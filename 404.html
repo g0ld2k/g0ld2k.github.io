@@ -1,25 +1,12 @@
 ---
 permalink: /404.html
 layout: default
+title: Page not found
+description: This page could not be found. Explore the apps or contact Chris for help.
 ---
-
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<section class="not-found">
+  <h1>404. This page wandered off.</h1>
+  <p>The link may have changed. You can find all my apps on the homepage.</p>
+  <a class="button button-dark" href="{{ '/' | relative_url }}">Explore the apps{% include arrow.html %}</a>
+  <a href="mailto:{{ site.email }}">Let me know about a broken link</a>
+</section>

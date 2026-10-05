@@ -1,54 +1,51 @@
 {% assign product = include.product %}
-<article class="product-page{% if product.long_title %} product-page-long-title{% endif %}">
-  <section class="product-hero">
+<article class="product-page">
+  <section class="product-hero theme-{{ product.theme }}" aria-labelledby="product-title">
     <div class="product-copy">
-      <p class="eyebrow">{{ product.eyebrow }}</p>
-      <h1>{{ product.hero_title }}</h1>
-      <p class="hero-subtitle">{{ product.subtitle }}</p>
-      {% if product.app_store_url %}
-        <div class="hero-actions">
-          <a href="{{ product.app_store_url }}" class="button button-primary">{{ product.cta_label | default: "View on the App Store" }}</a>
-        </div>
-      {% endif %}
+      <a class="back-link" href="{{ '/' | relative_url }}#apps">{% include arrow.html direction="back" %}All apps</a>
+      <h1 id="product-title">{{ page.title }}</h1>
+      <p class="product-headline">{{ product.hero_title | strip_html }}</p>
+      <p class="product-description">{{ product.subtitle }}</p>
+      <p class="product-platforms">{{ product.platforms }}<br>{{ product.availability }}</p>
+      <a class="button" href="{{ product.app_store_url }}">{{ product.cta_label | default: "View on the App Store" }}{% include arrow.html %}</a>
+      <a class="support-shortcut" href="#resources">Support &amp; details</a>
     </div>
     <figure class="product-media{% if product.media_phone %} product-media-phone{% endif %}">
       <picture>
-        {% if product.image_srcset %}
-          <source type="image/png" srcset="{{ product.image_srcset }}" sizes="{{ product.image_sizes | default: '(max-width: 980px) 100vw, 50vw' }}">
-        {% endif %}
-        <img src="{{ product.image | relative_url }}" alt="{{ product.image_alt }}" width="{{ product.image_width }}" height="{{ product.image_height }}" loading="eager" decoding="async">
+        <source srcset="{{ product.image_srcset }}" sizes="(max-width: 900px) 90vw, 55vw">
+        <img src="{{ product.image | relative_url }}" alt="{{ product.image_alt | escape }}" width="{{ product.image_width }}" height="{{ product.image_height }}" decoding="async" fetchpriority="high">
       </picture>
     </figure>
   </section>
-
-  <section class="intro-band">
-    <p><strong>{{ product.intro_lead }}</strong> {{ product.intro_body }}</p>
-  </section>
-
-  <section class="feature-section">
-    <div class="section-heading">
-      <p class="eyebrow">Key features</p>
-      <h2>{{ product.feature_heading }}</h2>
-    </div>
-    <div class="feature-grid">
-      {% for feature in include.features %}
-        <div class="feature-card">
-          <h3>{{ feature.title }}</h3>
-          <p>{{ feature.body }}</p>
+  <div class="product-body">
+    <section class="product-introduction" aria-label="About {{ page.title }}">
+      <p><strong>{{ product.intro_lead }}</strong> {{ product.intro_body }}</p>
+    </section>
+    <section class="feature-section" aria-labelledby="features-title">
+      <h2 id="features-title">{{ product.feature_heading }}</h2>
+      <dl class="feature-list">
+        {% for feature in include.features %}
+        <div class="feature">
+          <dt>{{ feature.title }}</dt>
+          <dd>{{ feature.body }}</dd>
         </div>
-      {% endfor %}
-    </div>
-  </section>
-
-  <section class="resource-band">
-    <div>
-      <p class="eyebrow">Details</p>
-      <h2>Policies and support</h2>
-    </div>
-    <div class="resource-links">
-      {% for resource in include.resources %}
-        <a href="{{ resource.url | relative_url }}">{{ resource.label }}</a>
-      {% endfor %}
-    </div>
-  </section>
+        {% endfor %}
+      </dl>
+    </section>
+    <section class="product-close" aria-label="Get {{ page.title }}">
+      <div>
+        <h2>Try {{ page.title }}.</h2>
+        <p>{{ product.availability }} · {{ product.platforms }}</p>
+      </div>
+      <a class="button button-dark" href="{{ product.app_store_url }}">{{ product.cta_label | default: "View on the App Store" }}{% include arrow.html %}</a>
+    </section>
+    <section class="resource-section" id="resources" aria-labelledby="resources-title">
+      <h2 id="resources-title">Policies and support</h2>
+      <ul class="resource-links">
+        {% for resource in include.resources %}
+        <li><a href="{{ resource.url }}">{{ resource.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
 </article>

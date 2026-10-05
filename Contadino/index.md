@@ -1,11 +1,16 @@
 ---
 layout: default
+app_order: 2
 title: Contadino
 description: Master Your Focus, One Session at a Time
 product:
+  theme: contadino
+  shelf_summary: Make time to focus.
+  platforms: Mac · iPhone · iPad · Apple Watch · Vision Pro
+  availability: App Store
   eyebrow: Contadino
   hero_title: Master your focus, one session at a time.
-  subtitle: "A Pomodoro-style focus tracker for macOS, iOS, iPadOS, visionOS, and watchOS that keeps the ritual simple: start, focus, reflect, repeat."
+  subtitle: "A Pomodoro-style focus tracker that keeps the ritual simple: start, focus, reflect, repeat."
   app_store_url: https://apps.apple.com/us/app/contadino/id1672167389
   image: /assets/images/Devices-1200.png
   image_srcset: "/assets/images/Devices-800.png 800w, /assets/images/Devices-1200.png 1200w"

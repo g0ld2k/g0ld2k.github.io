@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-12T17:06:49.248993+00:00",
+  "title": "Design System: g0ld2k.com",
+  "extensions": {
+    "colorMeta": {
+      "raspberry": {
+        "role": "primary",
+        "displayName": "Raspberry",
+        "tonalRamp": [
+          "oklch(15% 0.21 15)",
+          "oklch(26% 0.21 15)",
+          "oklch(38% 0.21 15)",
+          "oklch(49% 0.21 15)",
+          "oklch(61% 0.21 15)",
+          "oklch(72% 0.21 15)",
+          "oklch(84% 0.21 15)",
+          "oklch(95% 0.21 15)"
+        ]
+      },
+      "yellow": {
+        "role": "secondary",
+        "displayName": "Golden Yellow",
+        "tonalRamp": [
+          "oklch(15% 0.17 96)",
+          "oklch(26% 0.17 96)",
+          "oklch(38% 0.17 96)",
+          "oklch(49% 0.17 96)",
+          "oklch(61% 0.17 96)",
+          "oklch(72% 0.17 96)",
+          "oklch(84% 0.17 96)",
+          "oklch(95% 0.17 96)"
+        ]
+      },
+      "blue": {
+        "role": "tertiary",
+        "displayName": "Clear Blue",
+        "tonalRamp": [
+          "oklch(15% 0.19 253)",
+          "oklch(26% 0.19 253)",
+          "oklch(38% 0.19 253)",
+          "oklch(49% 0.19 253)",
+          "oklch(61% 0.19 253)",
+          "oklch(72% 0.19 253)",
+          "oklch(84% 0.19 253)",
+          "oklch(95% 0.19 253)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.005 285)",
+          "oklch(26% 0.005 285)",
+          "oklch(38% 0.005 285)",
+          "oklch(49% 0.005 285)",
+          "oklch(61% 0.005 285)",
+          "oklch(72% 0.005 285)",
+          "oklch(84% 0.005 285)",
+          "oklch(95% 0.005 285)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(26% 0 0)",
+          "oklch(38% 0 0)",
+          "oklch(49% 0 0)",
+          "oklch(61% 0 0)",
+          "oklch(72% 0 0)",
+          "oklch(84% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Gray",
+        "tonalRamp": [
+          "oklch(15% 0.01 285)",
+          "oklch(26% 0.01 285)",
+          "oklch(38% 0.01 285)",
+          "oklch(49% 0.01 285)",
+          "oklch(61% 0.01 285)",
+          "oklch(72% 0.01 285)",
+          "oklch(84% 0.01 285)",
+          "oklch(95% 0.01 285)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Fine Gray",
+        "tonalRamp": [
+          "oklch(15% 0.005 285)",
+          "oklch(26% 0.005 285)",
+          "oklch(38% 0.005 285)",
+          "oklch(49% 0.005 285)",
+          "oklch(61% 0.005 285)",
+          "oklch(72% 0.005 285)",
+          "oklch(84% 0.005 285)",
+          "oklch(95% 0.005 285)"
+        ]
+      },
+      "button-hover": {
+        "role": "neutral",
+        "displayName": "Soft White Hover",
+        "tonalRamp": [
+          "oklch(15% 0.005 325)",
+          "oklch(26% 0.005 325)",
+          "oklch(38% 0.005 325)",
+          "oklch(49% 0.005 325)",
+          "oklch(61% 0.005 325)",
+          "oklch(72% 0.005 325)",
+          "oklch(84% 0.005 325)",
+          "oklch(95% 0.005 325)"
+        ]
+      },
+      "button-dark-hover": {
+        "role": "neutral",
+        "displayName": "Charcoal Hover",
+        "tonalRamp": [
+          "oklch(15% 0.01 285)",
+          "oklch(26% 0.01 285)",
+          "oklch(38% 0.01 285)",
+          "oklch(49% 0.01 285)",
+          "oklch(61% 0.01 285)",
+          "oklch(72% 0.01 285)",
+          "oklch(84% 0.01 285)",
+          "oklch(95% 0.01 285)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Homepage introduction."
+      },
+      "app-title": {
+        "displayName": "App Title",
+        "purpose": "Equal app names across shelf panels."
+      },
+      "product-title": {
+        "displayName": "Product Title",
+        "purpose": "App detail page title."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Product purpose statement."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default text."
+      },
+      "prose": {
+        "displayName": "Prose",
+        "purpose": "Support and policy documents."
+      },
+      "label": {
+        "displayName": "Action Label",
+        "purpose": "Rounded action links."
+      }
+    },
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Button fill and arrow easing."
+      },
+      {
+        "name": "button-fill",
+        "value": "180ms",
+        "purpose": "Background-color transition."
+      },
+      {
+        "name": "button-arrow",
+        "value": "200ms",
+        "purpose": "Arrow translation by 3px on hover."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "none",
+        "purpose": "Disable transitions and animations when reduced motion is requested."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1800px"
+      },
+      {
+        "name": "shelf-tablet-max",
+        "value": "1100px"
+      },
+      {
+        "name": "product-stack-max",
+        "value": "900px"
+      },
+      {
+        "name": "shelf-tablet-min",
+        "value": "761px"
+      },
+      {
+        "name": "shelf-stack-max",
+        "value": "760px"
+      },
+      {
+        "name": "navigation-row-max",
+        "value": "410px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Light Action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Rounded installation or app detail link.",
+      "html": "<a class=\"ds-button\" href=\"#apps\">View app<svg class=\"ds-arrow\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M4 12h15M13 5l7 7-7 7\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>",
+      "css": ".ds-button{min-height:56px;padding:12px 26px;border-radius:999px;display:inline-flex;justify-content:center;align-items:center;gap:10px;font:600 clamp(17px,1.35vw,21px)/1.35 var(--font,\"Encode Sans\",sans-serif);text-align:center;text-decoration:none;transition:background-color 180ms var(--ease,cubic-bezier(0.16,1,0.3,1))}.ds-button:focus-visible{outline:3px solid currentColor;outline-offset:5px}.ds-arrow{transition:transform 200ms var(--ease,cubic-bezier(0.16,1,0.3,1))}.ds-button:hover .ds-arrow{transform:translateX(3px)}@media(prefers-reduced-motion:reduce){.ds-button,.ds-arrow{transition:none}}.ds-button{background:var(--paper,#ffffff);color:var(--ink,#151518)}.ds-button:hover{background:#f0edf0}"
+    },
+    {
+      "name": "Dark Action",
+      "kind": "button",
+      "refersTo": "button-dark",
+      "description": "Rounded installation or app detail link.",
+      "html": "<a class=\"ds-button\" href=\"#apps\">View app<svg class=\"ds-arrow\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M4 12h15M13 5l7 7-7 7\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>",
+      "css": ".ds-button{min-height:56px;padding:12px 26px;border-radius:999px;display:inline-flex;justify-content:center;align-items:center;gap:10px;font:600 clamp(17px,1.35vw,21px)/1.35 var(--font,\"Encode Sans\",sans-serif);text-align:center;text-decoration:none;transition:background-color 180ms var(--ease,cubic-bezier(0.16,1,0.3,1))}.ds-button:focus-visible{outline:3px solid currentColor;outline-offset:5px}.ds-arrow{transition:transform 200ms var(--ease,cubic-bezier(0.16,1,0.3,1))}.ds-button:hover .ds-arrow{transform:translateX(3px)}@media(prefers-reduced-motion:reduce){.ds-button,.ds-arrow{transition:none}}.ds-button{background:var(--ink,#151518);color:var(--paper,#ffffff)}.ds-button:hover{background:#3c3c43}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "White navigation with wordmark and underlined current page.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-brand\" href=\"#home\">g0ld2k.com</a><div class=\"ds-links\"><a href=\"#apps\" aria-current=\"page\">Apps</a><a href=\"#about\">About</a></div></nav>",
+      "css": ".ds-nav{background:var(--paper,#fff);color:var(--ink,#151518);font-family:var(--font,\"Encode Sans\",sans-serif);min-height:80px;padding:10px var(--gutter,24px);display:flex;align-items:center;justify-content:space-between;gap:20px}.ds-brand{font-size:clamp(26px,2.65vw,40px);font-weight:750;letter-spacing:-.04em;line-height:1.2}.ds-nav a{color:inherit;text-decoration:none}.ds-links{display:flex;gap:clamp(14px,2.2vw,34px)}.ds-links a{min-height:44px;display:inline-flex;align-items:center;font-size:clamp(16px,1.4vw,22px);padding:6px 2px}.ds-links a:hover,.ds-links [aria-current=page]{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:.2em}.ds-nav a:focus-visible{outline:3px solid currentColor;outline-offset:5px}@media(max-width:760px){.ds-nav{flex-wrap:wrap;gap:4px 20px;padding-block:12px;min-height:76px}.ds-brand{font-size:27px}.ds-links{gap:18px}.ds-links a{font-size:16px}}@media(max-width:410px){.ds-links{width:100%;gap:28px}}"
+    },
+    {
+      "name": "Feature List",
+      "kind": "custom",
+      "description": "Product capabilities in a plain definition list.",
+      "html": "<dl class=\"ds-features\"><div class=\"ds-feature\"><dt>Working hours</dt><dd>See working-hours context when comparing time zones.</dd></div><div class=\"ds-feature\"><dt>iCloud sync</dt><dd>Keep your saved information available across devices.</dd></div></dl>",
+      "css": ".ds-features{margin:0;font-family:var(--font,\"Encode Sans\",sans-serif);color:var(--ink,#151518)}.ds-feature{padding:0 0 24px;margin-bottom:24px;border-bottom:1px solid var(--line,#dedee2)}.ds-feature:last-child{border:0;margin:0;padding:0}.ds-feature dt{font-size:22px;font-weight:600;line-height:1.3;margin-bottom:8px}.ds-feature dd{margin:0;color:var(--muted,#56565c);font-size:18px;line-height:1.65}"
+    },
+    {
+      "name": "Resource Links",
+      "kind": "custom",
+      "description": "Wrapping support and policy destinations.",
+      "html": "<ul class=\"ds-resources\"><li><a href=\"#privacy\">Privacy policy</a></li><li><a href=\"#support\">Support</a></li></ul>",
+      "css": ".ds-resources{display:flex;flex-wrap:wrap;gap:8px 28px;padding:0;margin:14px 0 0;list-style:none;font-family:var(--font,\"Encode Sans\",sans-serif)}.ds-resources a{color:var(--ink,#151518);display:inline-flex;align-items:center;min-height:44px;font-size:16px;text-underline-offset:.2em;text-decoration-thickness:1px}.ds-resources a:hover{text-decoration-thickness:2px}.ds-resources a:focus-visible{outline:3px solid currentColor;outline-offset:5px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Software Shelf",
+    "overview": "Software Shelf is bold, friendly, and direct: saturated app colors meet a white page, consistent sans-serif typography, and generous space for real product imagery. The independent developer’s identity stays plain and personal.\n\nFlat surfaces and comfortably rounded actions give the work confidence without decorative chrome. The confirmed visual departure is from the previous terminal/neon aesthetic. Existing app screenshots and device compositions carry the product detail; the website does not manufacture interface imagery.",
+    "keyCharacteristics": [
+      "Raspberry, golden yellow, and clear blue app identities.",
+      "Consistent medium-weight titles and readable regular-weight text.",
+      "Flat color regions, white space, and pill-shaped actions.",
+      "Real app imagery with preserved proportions."
+    ],
+    "rules": [
+      {
+        "name": "The App Identity Rule",
+        "body": "Carry each app’s assigned color from its discovery panel into its product hero; use white text on raspberry and blue, and ink text on yellow.",
+        "section": "colors"
+      },
+      {
+        "name": "The Equal Titles Rule",
+        "body": "Give every app name the same type treatment within a shared collection.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Surface Rule",
+        "body": "Use color fields, space, and fine dividers to separate content; the website adds no box shadows.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do preserve the app color assignments and the shared type hierarchy.",
+      "Do show existing app imagery at its natural aspect ratio with contain fitting.",
+      "Do stack complete app sections on narrow screens.",
+      "Do keep support and policy text on readable white document surfaces.",
+      "Do preserve visible keyboard focus and reduced-motion behavior."
+    ],
+    "donts": [
+      "Don’t revive the previous terminal/neon ornaments.",
+      "Don’t fabricate app screenshots or replace interface details with generated imagery.",
+      "Don’t turn the mobile app collection into a horizontal carousel.",
+      "Don’t add raised card chrome to the contiguous app panels."
+    ]
+  }
+}

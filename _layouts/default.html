@@ -2,48 +2,29 @@
 <html lang="{{ site.lang | default: 'en-US' }}">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace }}">
-
+    <meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | escape }}">
+    <meta name="theme-color" content="#ffffff">
     <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
+    <link rel="preload" href="{{ '/assets/fonts/encode-sans-latin-variable.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
   <body class="{% if page.url == '/' %}is-home{% else %}is-page{% endif %}">
     <a class="skip-link" href="#content">Skip to content</a>
-
     <header class="site-header">
       <nav class="site-nav" aria-label="Primary navigation">
-        <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
-          <span class="brand-mark">g0</span>
-          <span class="brand-text">g0ld2k.com</span>
-        </a>
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="g0ld2k.com home">g0ld2k.com</a>
         <div class="nav-links">
           <a href="{{ '/' | relative_url }}#apps">Apps</a>
-          <a href="{{ '/Zoner/' | relative_url }}">Zoner</a>
-          <a href="{{ '/Contadino/' | relative_url }}">Contadino</a>
-          <a href="{{ '/DistanceTrack/' | relative_url }}">Distance Track</a>
+          <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
           <a href="mailto:{{ site.email }}">Contact</a>
         </div>
       </nav>
     </header>
-
-    <main id="content" class="site-main">
-      {{ content }}
-    </main>
-
+    <main id="content" tabindex="-1">{{ content }}</main>
     <footer class="site-footer">
-      <div>
-        <strong>{{ site.title }}</strong>
-        <span>Independent apps for focus, fitness, time zones, and a little useful mischief.</span>
-      </div>
-      <div class="footer-links">
-        <a href="https://github.com/{{ site.github_username }}">GitHub</a>
-        <a href="{{ site.mastodon_url }}">Mastodon</a>
-        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-      </div>
+      <p>Made by <a href="{{ '/about/' | relative_url }}">Chris</a>. Independently. For a more intentional day.</p>
     </footer>
   </body>
 </html>
