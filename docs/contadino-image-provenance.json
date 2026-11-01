@@ -1,0 +1,55 @@
+{
+  "appCommit": "e62f0e60fa03b33c4c3c42394af9f81eda859850",
+  "captureDate": "2026-10-31",
+  "processing": "Proportional downsampling only; authentic sandbox UI, no App Store banners or altered controls.",
+  "assets": [
+    {
+      "asset": "assets/images/contadino/iphone-timer.png",
+      "source": "capture-duo-retry-1.4.0/iphone-medium/raw/01_Timer.png",
+      "sourceSHA256": "9c1d18c0ecca2fa71f300a12c94f4ae596197d427130ebad06fd938d661570b7",
+      "bytes": 481712
+    },
+    {
+      "asset": "assets/images/contadino/iphone-calm.png",
+      "source": "capture-duo-retry-1.4.0/iphone-medium/raw/04_Theme_CalmZen.png",
+      "sourceSHA256": "74eac8e2058715ce121fb128a858a32be779d02241d146e8a3a4d320c5333a00",
+      "bytes": 185585
+    },
+    {
+      "asset": "assets/images/contadino/iphone-midnight.png",
+      "source": "capture-duo-retry-1.4.0/iphone-medium/raw/06_Theme_MidnightOwl.png",
+      "sourceSHA256": "2834cab8fbf81d6695543649433548ebf1dc2f2ed9171188c1831e6de2262faf",
+      "bytes": 167420
+    },
+    {
+      "asset": "assets/images/contadino/mac-history.png",
+      "source": "capture-mac-retry-1.4.0/mac/raw/02_History.png",
+      "sourceSHA256": "0c61b2df4f103e313f57ac6d6828adef329925ec346eda5b029359706a4a77a6",
+      "bytes": 1214653
+    },
+    {
+      "asset": "assets/images/contadino/ipad-timer.png",
+      "source": "capture-remaining-1.4.0/ipad-13/raw/01_Timer.png",
+      "sourceSHA256": "d285f766e4ce1bb734d573e4d029695bc5f22bf7cee27bfb86b138814384da3b",
+      "bytes": 439685
+    },
+    {
+      "asset": "assets/images/contadino/watch-timer.png",
+      "source": "capture-spatial-watch-1.4.0/watch/raw/01_Timer.png",
+      "sourceSHA256": "a784432d32d59ab48bf3ad0846cecb694ad86f7304780089c740a7b165a539b6",
+      "bytes": 195819
+    },
+    {
+      "asset": "assets/images/contadino/vision-timer.png",
+      "source": "capture-spatial-watch-1.4.0/vision/raw/01_Timer.png",
+      "sourceSHA256": "03c356874ec30655ca3b1acfb3fce452e7924dd01aafce0b493b01da51e2dfc5",
+      "bytes": 813362
+    },
+    {
+      "asset": "assets/images/contadino/iphone-history.png",
+      "source": "capture-duo-retry-1.4.0/iphone-medium/raw/02_History.png",
+      "sourceSHA256": "a1318572e1c6c07f0e13f99caba1095acc8ce5eadb2401afd0b370ed926f9863",
+      "bytes": 364282
+    }
+  ]
+}

@@ -31,7 +31,7 @@ The site is a Jekyll website deployed through GitHub Pages. Its web platform is 
 The current repository describes three apps:
 
 - **Zoner:** time zone coordination with locations, people, groups, working-hours awareness, iCloud sync, backup import/export, widgets, and a macOS menu bar helper. Its page describes Mac and iPhone support and links to TestFlight.
-- **Contadino:** Pomodoro-style focus tracking, session and interruption history, adjustable focus/break durations, and statistics across macOS, iOS, iPadOS, visionOS, and watchOS. Its page links to the App Store.
+- **Contadino:** A focus timer and session log with adjustable session length, history, notes, tags, and themes across macOS, iOS, iPadOS, visionOS, and watchOS. Sessions can continue until stopped; there are no timed breaks. Contadino+ is an optional one-time purchase for older history and editing session times and completed counts. Its page links to the App Store.
 - **Distance Track:** walking, running, and cycling distance goals using Apple Health workouts, with progress visualization on iPhone and iPad. Its page links to the App Store.
 
 These are repository-backed descriptions, not independent verification of the native apps or live store availability. Consult each app's current page when changing feature, platform, or distribution claims.

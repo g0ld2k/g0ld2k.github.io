@@ -184,3 +184,42 @@ svg { flex-shrink: 0; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
 }
+
+/* Contadino's story uses real app captures, with copy outside the images. */
+.contadino-pair { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .37fr); align-items: center; gap: 20px; }
+.contadino-pair img { width: 100%; height: auto; }
+.contadino-phone, .contadino-theme-gallery img { border: 1px solid var(--ink); border-radius: 18px; }
+.contadino-mac, .contadino-window { border-radius: 10px; }
+.contadino-story-copy { max-width: 65ch; }
+.contadino-story-copy h2, .contadino-plus h2 { font-size: clamp(28px, 2.6vw, 38px); margin-bottom: 22px; }
+.contadino-story-copy p + p { margin-top: 18px; }
+.contadino-story-copy p, .contadino-plus p { color: var(--muted); }
+.contadino-history, .contadino-themes, .contadino-devices { margin-top: 88px; }
+.contadino-history figure { margin-top: 32px; }
+.contadino-history picture { display: block; }
+.contadino-story figcaption { color: var(--muted); font-size: 16px; margin-top: 14px; text-align: center; }
+.contadino-themes { display: grid; grid-template-columns: .8fr 1.2fr; gap: 48px; align-items: center; }
+.contadino-theme-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.contadino-theme-gallery img { width: 100%; }
+.contadino-device-gallery { display: grid; grid-template-columns: 1fr .5fr 1fr; gap: 28px; align-items: end; margin-top: 36px; }
+.contadino-device-gallery img { width: 100%; max-height: 220px; object-fit: contain; }
+.contadino-plus { margin-top: 72px; padding-top: 40px; border-top: 1px solid var(--line); max-width: 68ch; }
+@media (max-width: 900px) {
+  .contadino-pair { max-width: 680px; margin-inline: auto; gap: 14px; }
+  .contadino-themes { grid-template-columns: 1fr; gap: 28px; }
+  .contadino-theme-gallery { max-width: 580px; }
+}
+@media (max-width: 600px) {
+  .contadino-history, .contadino-themes, .contadino-devices { margin-top: 56px; }
+  .contadino-history picture { max-width: 340px; margin-inline: auto; }
+  .contadino-pair { grid-template-columns: 1fr; justify-items: center; }
+  .contadino-pair .contadino-phone { width: 58%; grid-row: 1; }
+  .contadino-pair .contadino-mac { width: 100%; margin-top: 14px; }
+  .contadino-theme-gallery { gap: 10px; }
+  .contadino-theme-gallery img { border-radius: 10px; }
+  .contadino-theme-gallery figcaption { font-size: 14px; }
+  .contadino-device-gallery { grid-template-columns: 1fr; gap: 30px; }
+  .contadino-device-gallery img { max-height: 280px; }
+  .contadino-plus { margin-top: 56px; }
+  .contadino-story .product-close .button { width: 100%; }
+}

@@ -1,0 +1,71 @@
+{% assign product = page.product %}
+<article class="product-page contadino-story">
+  <section class="product-hero theme-contadino" aria-labelledby="product-title">
+    <div class="product-copy">
+      <a class="back-link" href="{{ '/' | relative_url }}#apps">{% include arrow.html direction="back" %}All apps</a>
+      <h1 id="product-title">Contadino</h1>
+      <p class="product-headline">Make room for focused work.</p>
+      <p class="product-description">A chapter to read, an idea to chase, or that project patiently waiting for you. Give it a little time with Contadino, then look back at what you worked on.</p>
+      <p class="product-platforms">{{ product.platforms }}</p>
+      <a class="button" href="{{ product.app_store_url }}">View on the App Store{% include arrow.html %}</a>
+      <a class="support-shortcut" href="#resources">Support &amp; details</a>
+    </div>
+    <div class="contadino-pair" aria-label="Contadino on Mac and iPhone">
+      <img class="contadino-mac" src="{{ '/assets/images/contadino/mac-history.png' | relative_url }}" width="1600" height="1000" alt="Mac History with a day’s focus time, sessions, and a Writing tag." decoding="async" fetchpriority="high">
+      <img class="contadino-phone" src="{{ '/assets/images/contadino/iphone-timer.png' | relative_url }}" width="600" height="1304" alt="iPhone focus timer with 15 minutes remaining and a Stop control." decoding="async">
+    </div>
+  </section>
+  <div class="product-body">
+    <section class="product-introduction" aria-label="About Contadino">
+      <p><strong>Start with one thing.</strong> Choose how long you want to spend on it, press Start, and settle in. Keep working when you’re in the flow, or stop when you need to. There’s room for the way your day actually goes.</p>
+    </section>
+    <section class="contadino-history" aria-labelledby="history-title">
+      <div class="contadino-story-copy">
+        <h2 id="history-title">Remember what the time was for.</h2>
+        <p>At the end of a busy day, it can be hard to remember where your attention went. Contadino keeps your sessions together, including the ones that were interrupted.</p>
+        <p>Add a note about where you left off, or a tag for the project you were working on. When you look back, you’ll have more than a list of times.</p>
+      </div>
+      <figure>
+        <picture>
+          <source media="(max-width: 600px)" srcset="{{ '/assets/images/contadino/iphone-history.png' | relative_url }}" width="600" height="1304">
+          <img class="contadino-window" src="{{ '/assets/images/contadino/mac-history.png' | relative_url }}" width="1600" height="1000" alt="History shows 1 hour 43 minutes of focus, a weekly chart, and individual sessions." loading="lazy" decoding="async">
+        </picture>
+        <figcaption>Your day’s focus time, with the sessions that made it.</figcaption>
+      </figure>
+    </section>
+    <section class="contadino-themes" aria-labelledby="themes-title">
+      <div class="contadino-story-copy">
+        <h2 id="themes-title">Make yourself comfortable.</h2>
+        <p>A quiet blue, a little warmth, or something in between. Choose a theme you enjoy spending time with.</p>
+      </div>
+      <div class="contadino-theme-gallery">
+        <figure><img src="{{ '/assets/images/contadino/iphone-calm.png' | relative_url }}" width="400" height="870" alt="Contadino’s timer in the pale blue and green Calm Zen theme." loading="lazy" decoding="async"><figcaption>Calm Zen</figcaption></figure>
+        <figure><img src="{{ '/assets/images/contadino/iphone-midnight.png' | relative_url }}" width="400" height="870" alt="Contadino’s timer in the lavender Midnight Owl theme." loading="lazy" decoding="async"><figcaption>Midnight Owl</figcaption></figure>
+        <figure><img src="{{ '/assets/images/contadino/iphone-timer.png' | relative_url }}" width="600" height="1304" alt="Contadino’s timer in the orange and yellow Sunrise Energy theme." loading="lazy" decoding="async"><figcaption>Sunrise Energy</figcaption></figure>
+      </div>
+    </section>
+    <section class="contadino-devices" aria-labelledby="devices-title">
+      <div class="contadino-story-copy">
+        <h2 id="devices-title">A place to focus, wherever you settle in.</h2>
+        <p>At your desk, with your iPad, or in your own space on Vision Pro. Contadino is at home across your Apple devices, with session history synced through your iCloud account. On Apple Watch, a glance at your wrist keeps your timer close.</p>
+      </div>
+      <div class="contadino-device-gallery">
+        <figure><img src="{{ '/assets/images/contadino/ipad-timer.png' | relative_url }}" width="1000" height="750" alt="Contadino’s focus timer on iPad." loading="lazy" decoding="async"><figcaption>iPad</figcaption></figure>
+        <figure><img src="{{ '/assets/images/contadino/watch-timer.png' | relative_url }}" width="416" height="496" alt="Apple Watch shows the current timer and Stop control." loading="lazy" decoding="async"><figcaption>Apple Watch</figcaption></figure>
+        <figure><img src="{{ '/assets/images/contadino/vision-timer.png' | relative_url }}" width="1200" height="675" alt="Contadino’s timer window placed in a room on Apple Vision Pro." loading="lazy" decoding="async"><figcaption>Apple Vision Pro</figcaption></figure>
+      </div>
+    </section>
+    <section class="contadino-plus" aria-labelledby="plus-title">
+      <h2 id="plus-title">Start free. Keep more with Contadino+.</h2>
+      <p>The free app includes today and the previous two days of session history. Contadino+ is an optional, one-time purchase that unlocks older history and lets you edit session times and completed counts.</p>
+    </section>
+    <section class="product-close" aria-label="Get Contadino">
+      <div><h2>What would you like to make time for?</h2><p>Start your next session with Contadino.</p></div>
+      <a class="button button-dark" href="{{ product.app_store_url }}">View on the App Store{% include arrow.html %}</a>
+    </section>
+    <section class="resource-section" id="resources" aria-labelledby="resources-title">
+      <h2 id="resources-title">Policies and support</h2>
+      <ul class="resource-links">{% for resource in page.resources %}<li><a href="{{ resource.url }}">{{ resource.label }}</a></li>{% endfor %}</ul>
+    </section>
+  </div>
+</article>
