@@ -1,0 +1,88 @@
+{
+  "direction": "A",
+  "framesCLI": "1.5.1",
+  "framesSource": "https://github.com/viticci/frames-cli",
+  "assets": [
+    {
+      "asset": "iphone-timer.png",
+      "sha256": "8a488f2e2148a6275bb53ce6c41bb0c35ab8240d7a1649c6d89af189693dbcf4",
+      "size": [
+        978,
+        2000
+      ],
+      "processing": "proportional downsample only; complete sourced hardware artwork"
+    },
+    {
+      "asset": "iphone-history.png",
+      "sha256": "a03ce236be00f9349c346378366139ba4e42a490e3a0c901babcd4449b1da780",
+      "size": [
+        978,
+        2000
+      ],
+      "processing": "proportional downsample only; complete sourced hardware artwork"
+    },
+    {
+      "asset": "iphone-calm.png",
+      "sha256": "142d75001aae2c3df02399d8228c3de3ac5706acf95233c68909f9bfdf389a47",
+      "size": [
+        978,
+        2000
+      ],
+      "processing": "proportional downsample only; complete sourced hardware artwork"
+    },
+    {
+      "asset": "iphone-midnight.png",
+      "sha256": "f6ceee49a750c7ec656f5fb461420f92a04cbd49f428217179df3c89f34e1551",
+      "size": [
+        978,
+        2000
+      ],
+      "processing": "proportional downsample only; complete sourced hardware artwork"
+    },
+    {
+      "asset": "mac-history.png",
+      "sha256": "4801a5d46dde26c29da4c30f38336b84eb2f3de8cf5f0d51506f4cdd59621083",
+      "size": [
+        2000,
+        1316
+      ],
+      "processing": "proportional downsample only; complete sourced hardware artwork"
+    },
+    {
+      "asset": "ipad-timer.png",
+      "sha256": "d5dc6b89c0704e0d31b7f9e94afc3131c3a7f5609ba108a975d0241e013123e6",
+      "size": [
+        2000,
+        1533
+      ],
+      "processing": "proportional downsample only; complete sourced hardware artwork"
+    },
+    {
+      "asset": "watch-timer.png",
+      "sha256": "a914f1e0f13e93047802b0ad8fe93601198082307025dc6259d90ba376bc1359",
+      "size": [
+        560,
+        880
+      ],
+      "processing": "proportional downsample only; complete sourced hardware artwork"
+    },
+    {
+      "asset": "vision-timer.png",
+      "sha256": "b3bcf90ba8b394ff2a3252f0f28858b4a96fe7fb65f6d2b7d4e5de73d2548fa1",
+      "size": [
+        1600,
+        900
+      ],
+      "processing": "proportional downsample of complete native spatial scene"
+    },
+    {
+      "asset": "hero-devices.png",
+      "sha256": "87a09dd2f11a44a2041cdf055b969033fbe71aa23c700bf6159ba176cbd4f685",
+      "size": [
+        2200,
+        1173
+      ],
+      "processing": "frames-cli physical-size merge, no overlap; proportional downsample"
+    }
+  ]
+}

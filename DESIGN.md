@@ -205,3 +205,19 @@ Motion remains limited to button fill and arrow transitions. Named app links und
 - Don’t fabricate app screenshots or replace interface details with generated imagery.
 - Don’t turn the mobile app collection into a horizontal carousel.
 - Don’t add raised card chrome to the contiguous app panels.
+
+
+## Contadino direction A (product page only)
+
+`assets/css/contadino.scss` is loaded only for `/Contadino/`. It retains Encode
+Sans and uses ivory `#faf7ee`, ink `#30291e`, yellow `#ffd629`, hover ink `#51452f`
+and focus `#856000`. Body 18px/1.65, mobile 17px; hero 26px app name and 40–66px
+headline (43px mobile); section headings 30–46px (34px mobile). These are deliberate
+local values; other product pages and policy documents keep the shared system.
+
+The desktop hero presents a physical-scale Mac/phone pair without overlap;
+mobile presents one large phone. Three complete theme phones form a desktop row
+and stack on mobile. All hardware is sourced frames-cli artwork, never CSS
+approximations. Mac History preserves its calendar and native system buttons;
+its real window is composed over Sonoma wallpaper. Vision preserves its native
+spatial scene. The homepage uses the same preframed phone without another bezel.
