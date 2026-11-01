@@ -2,38 +2,19 @@
 layout: default
 app_order: 2
 title: Contadino
-description: Master Your Focus, One Session at a Time
+description: Make room for focused work, and see where your time went. A focus timer and session log for your Apple devices.
 product:
   theme: contadino
-  shelf_summary: Make time to focus.
+  shelf_summary: Make room for focused work.
   platforms: Mac · iPhone · iPad · Apple Watch · Vision Pro
   availability: App Store
-  eyebrow: Contadino
-  hero_title: Master your focus, one session at a time.
-  subtitle: "A Pomodoro-style focus tracker that keeps the ritual simple: start, focus, reflect, repeat."
   app_store_url: https://apps.apple.com/us/app/contadino/id1672167389
-  image: /assets/images/Devices-1200.png
-  image_srcset: "/assets/images/Devices-800.png 800w, /assets/images/Devices-1200.png 1200w"
-  image_sizes: "(max-width: 980px) 100vw, 600px"
-  image_alt: Contadino running on iPhone, iPad, and Mac
-  image_width: 1200
-  image_height: 546
-  intro_lead: Welcome to Contadino.
-  intro_body: It is built for people who want a clear signal to begin, a gentle record of what happened, and a tiny bit of encouragement when the day gets noisy.
-  feature_heading: Focus tools without the fuss.
-features:
-  - title: Track focus sessions
-    body: Divide work into focused intervals and keep a useful history of completed sessions.
-  - title: Monitor interruptions
-    body: Log both completed and interrupted sessions so your patterns become easier to understand.
-  - title: Works across Apple devices
-    body: Use Contadino on macOS, iOS, iPadOS, visionOS, and watchOS when your work shifts screens.
-  - title: Customizable rhythm
-    body: Tune focus and break lengths so the app follows your real workflow.
-  - title: Helpful statistics
-    body: Review your focus history and spot the habits that help you make progress.
-  - title: Privacy-focused
-    body: Your data stays on your device and/or in your iCloud account.
+  media_phone: true
+  image: /assets/images/contadino/iphone-timer.png
+  image_srcset: /assets/images/contadino/iphone-timer.png 600w
+  image_alt: Contadino’s focus timer on iPhone
+  image_width: 600
+  image_height: 1304
 resources:
   - label: Privacy Policy
     url: /Contadino/privacy
@@ -45,4 +26,4 @@ resources:
     url: https://techhub.social/@g0ld2k
 ---
 
-{% include product_page.html product=page.product features=page.features resources=page.resources %}
+{% include contadino_page.html %}
