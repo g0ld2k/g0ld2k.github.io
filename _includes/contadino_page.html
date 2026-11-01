@@ -11,8 +11,8 @@
       <a class="support-shortcut" href="#resources">Support &amp; details</a>
     </div>
     <div class="contadino-pair" aria-label="Contadino on Mac and iPhone">
-      <img class="contadino-mac" src="{{ '/assets/images/contadino/mac-history.png' | relative_url }}" width="1600" height="1000" alt="Mac History with a day’s focus time, sessions, and a Writing tag." decoding="async" fetchpriority="high">
-      <img class="contadino-phone" src="{{ '/assets/images/contadino/iphone-timer.png' | relative_url }}" width="600" height="1304" alt="iPhone focus timer with 15 minutes remaining and a Stop control." decoding="async">
+      <div class="contadino-device contadino-device-mac contadino-mac"><img src="{{ '/assets/images/contadino/mac-history.png' | relative_url }}" width="1600" height="1000" alt="Mac History with a day’s focus time, sessions, and a Writing tag." decoding="async" fetchpriority="high"></div>
+      <div class="contadino-device contadino-device-phone contadino-phone"><img src="{{ '/assets/images/contadino/iphone-timer.png' | relative_url }}" width="600" height="1304" alt="iPhone focus timer with 15 minutes remaining and a Stop control." decoding="async"></div>
     </div>
   </section>
   <div class="product-body">
@@ -26,10 +26,10 @@
         <p>Add a note about where you left off, or a tag for the project you were working on. When you look back, you’ll have more than a list of times.</p>
       </div>
       <figure>
-        <picture>
+        <div class="contadino-device contadino-device-mac contadino-history-device"><picture>
           <source media="(max-width: 600px)" srcset="{{ '/assets/images/contadino/iphone-history.png' | relative_url }}" width="600" height="1304">
-          <img class="contadino-window" src="{{ '/assets/images/contadino/mac-history.png' | relative_url }}" width="1600" height="1000" alt="History shows 1 hour 43 minutes of focus, a weekly chart, and individual sessions." loading="lazy" decoding="async">
-        </picture>
+          <img src="{{ '/assets/images/contadino/mac-history.png' | relative_url }}" width="1600" height="1000" alt="History shows 1 hour 43 minutes of focus, a weekly chart, and individual sessions." loading="lazy" decoding="async">
+        </picture></div>
         <figcaption>Your day’s focus time, with the sessions that made it.</figcaption>
       </figure>
     </section>
@@ -39,9 +39,9 @@
         <p>A quiet blue, a little warmth, or something in between. Choose a theme you enjoy spending time with.</p>
       </div>
       <div class="contadino-theme-gallery">
-        <figure><img src="{{ '/assets/images/contadino/iphone-calm.png' | relative_url }}" width="400" height="870" alt="Contadino’s timer in the pale blue and green Calm Zen theme." loading="lazy" decoding="async"><figcaption>Calm Zen</figcaption></figure>
-        <figure><img src="{{ '/assets/images/contadino/iphone-midnight.png' | relative_url }}" width="400" height="870" alt="Contadino’s timer in the lavender Midnight Owl theme." loading="lazy" decoding="async"><figcaption>Midnight Owl</figcaption></figure>
-        <figure><img src="{{ '/assets/images/contadino/iphone-timer.png' | relative_url }}" width="600" height="1304" alt="Contadino’s timer in the orange and yellow Sunrise Energy theme." loading="lazy" decoding="async"><figcaption>Sunrise Energy</figcaption></figure>
+        <figure><div class="contadino-device contadino-device-phone"><img src="{{ '/assets/images/contadino/iphone-calm.png' | relative_url }}" width="400" height="870" alt="Contadino’s timer in the pale blue and green Calm Zen theme." loading="lazy" decoding="async"></div><figcaption>Calm Zen</figcaption></figure>
+        <figure><div class="contadino-device contadino-device-phone"><img src="{{ '/assets/images/contadino/iphone-midnight.png' | relative_url }}" width="400" height="870" alt="Contadino’s timer in the lavender Midnight Owl theme." loading="lazy" decoding="async"></div><figcaption>Midnight Owl</figcaption></figure>
+        <figure><div class="contadino-device contadino-device-phone"><img src="{{ '/assets/images/contadino/iphone-timer.png' | relative_url }}" width="600" height="1304" alt="Contadino’s timer in the orange and yellow Sunrise Energy theme." loading="lazy" decoding="async"></div><figcaption>Sunrise Energy</figcaption></figure>
       </div>
     </section>
     <section class="contadino-devices" aria-labelledby="devices-title">
@@ -50,8 +50,8 @@
         <p>At your desk, with your iPad, or in your own space on Vision Pro. Contadino is at home across your Apple devices, with session history synced through your iCloud account. On Apple Watch, a glance at your wrist keeps your timer close.</p>
       </div>
       <div class="contadino-device-gallery">
-        <figure><img src="{{ '/assets/images/contadino/ipad-timer.png' | relative_url }}" width="1000" height="750" alt="Contadino’s focus timer on iPad." loading="lazy" decoding="async"><figcaption>iPad</figcaption></figure>
-        <figure><img src="{{ '/assets/images/contadino/watch-timer.png' | relative_url }}" width="416" height="496" alt="Apple Watch shows the current timer and Stop control." loading="lazy" decoding="async"><figcaption>Apple Watch</figcaption></figure>
+        <figure><div class="contadino-device contadino-device-ipad"><img src="{{ '/assets/images/contadino/ipad-timer.png' | relative_url }}" width="1000" height="750" alt="Contadino’s focus timer on iPad." loading="lazy" decoding="async"></div><figcaption>iPad</figcaption></figure>
+        <figure><div class="contadino-device contadino-device-watch"><img src="{{ '/assets/images/contadino/watch-timer.png' | relative_url }}" width="416" height="496" alt="Apple Watch shows the current timer and Stop control." loading="lazy" decoding="async"></div><figcaption>Apple Watch</figcaption></figure>
         <figure><img src="{{ '/assets/images/contadino/vision-timer.png' | relative_url }}" width="1200" height="675" alt="Contadino’s timer window placed in a room on Apple Vision Pro." loading="lazy" decoding="async"><figcaption>Apple Vision Pro</figcaption></figure>
       </div>
     </section>
