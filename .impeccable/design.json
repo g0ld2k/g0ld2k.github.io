@@ -208,7 +208,44 @@
         "name": "navigation-row-max",
         "value": "410px"
       }
-    ]
+    ],
+    "contadinoDirectionA": {
+      "route": "/Contadino/",
+      "stylesheet": "assets/css/contadino.scss",
+      "palette": {
+        "paper": "#faf7ee",
+        "ink": "#30291e",
+        "stage": "#ffd629",
+        "hoverInk": "#51452f",
+        "focus": "#856000"
+      },
+      "typography": {
+        "family": "Encode Sans",
+        "bodyPixels": [
+          17,
+          18
+        ],
+        "heroPixels": [
+          26,
+          40,
+          43,
+          66
+        ],
+        "sectionPixels": [
+          30,
+          34,
+          46
+        ]
+      },
+      "media": {
+        "source": "frames-cli1.5.1",
+        "desktopHero": "physical-scale Mac/phone pair, no overlap",
+        "mobileHero": "single complete phone",
+        "themes": "three-column desktop; stacked mobile",
+        "mac": "authentic native window with calendar and system controls over Sonoma",
+        "vision": "complete native Simulator scene, unframed"
+      }
+    }
   },
   "components": [
     {
