@@ -3,33 +3,37 @@ layout: document
 app_name: Contadino
 app_url: /Contadino/
 title: Privacy Policy for Contadino
-description: "Last Updated: November 18, 2023"
+description: "Last Updated: November 1, 2026"
 ---
 
-At Contadino, we are committed to protecting the privacy and security of our users. This Privacy Policy outlines our practices concerning the collection, use, and disclosure of your information when you use our app.
+Contadino stores your focus sessions on your devices and can synchronize them through your private iCloud account. You do not need to create an account with us to use the app.
 
-## **Information Collection and Use**
+## Your sessions and settings
 
-For a better experience while using our service, Contadino may require you to provide us with certain personally identifiable information. The information that we request will be retained on your device and is not collected by us in any way.
+Your session history includes session times, completed and interrupted sessions, and any notes or tags you choose to add. Contadino stores this information locally. When iCloud is available, session history and supported settings can synchronize across your devices through Apple's iCloud services. We do not operate a separate server for your session history.
 
-**The app does use third-party services that may collect information used to identify you.**
+You can choose to export session data as a JSON file using the system file picker. Contadino does not automatically send exported files to us.
 
-## **Data Storage**
+## Local diagnostic logs
 
-- **iCloud:** Contadino utilizes iCloud to synchronize data across your devices. This ensures a seamless experience, allowing you to access your information on any device signed into your iCloud account. Data stored in iCloud is secured under your Apple ID and governed by Apple's Privacy Policy.
+Contadino records technical events and errors to help diagnose problems. Local log files are stored in the app's cache, where older files are periodically removed and the operating system may also clear them. The app also uses Apple's system logging facilities.
 
-- **On-Device Storage:** Data generated in Contadino is stored locally on your device. This means your data stays in your hands, without any risk of it being accessed by us or third parties.
+Contadino does not include a service that automatically uploads these local log files to us or to an analytics provider.
 
-## **Analytics and Tracking**
+## Apple services and purchases
 
-- **No Tracking:** Contadino does not track your activity within the app. We believe in providing a private and secure environment where your app usage and habits are not monitored.
+Contadino uses iCloud for synchronization and Apple's App Store services for Contadino+ purchases and restoration. Apple processes payments and provides the purchase information the app needs to determine whether Contadino+ is unlocked. We do not receive your payment card details.
 
-- **No Analytics:** We do not collect or analyze data regarding your behavior in the app. Your usage patterns, focus session lengths, and interruption frequencies remain private to you.
+Apple may handle service and diagnostic information under your Apple account and device privacy settings. Apple's handling of that information is described in [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
 
-## **Changes to This Privacy Policy**
+## Analytics and advertising
 
-We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
+Contadino does not include third-party advertising or analytics SDKs. We do not use your session history to track you across other companies' apps or websites.
 
-## **Contact Us**
+## Support
 
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at [contadino@g0ld2k.com](mailto:contadino@g0ld2k.com).
+If you email [contadino@g0ld2k.com](mailto:contadino@g0ld2k.com), we receive your email address and any information you choose to include. We use that information to respond to your request.
+
+## Changes to this policy
+
+We will update this page when these practices change. The date above identifies the latest revision.
