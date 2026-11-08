@@ -10,8 +10,8 @@ product:
   availability: App Store
   app_store_url: https://apps.apple.com/us/app/contadino/id1672167389
   media_phone: true
-  image: /assets/images/contadino/iphone-timer.png
-  image_srcset: /assets/images/contadino/iphone-timer.png 978w
+  image: /assets/images/contadino/iphone-timer.webp
+  image_srcset: /assets/images/contadino/iphone-timer.webp 978w
   image_alt: Contadino’s focus timer on iPhone
   image_width: 978
   image_height: 2000

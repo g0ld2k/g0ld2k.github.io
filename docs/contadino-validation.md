@@ -16,3 +16,15 @@
 - Jekyll build and git diff --check passed. Browser inspection covered desktop (1280px), phone (390px), and narrow phone (320px); no horizontal overflow, all nine product images loaded, and the homepage frame rendered correctly.
 - Impeccable detector completed with advisories for existing design-token drift and intentional hardware colors/radii; its rounded-border warning refers to the laptop's physical base, not a card.
 - This follow-up is PR-only. Merge and production deployment require the user's explicit approval after review.
+
+## Settings screenshot refresh (2026-11-08)
+
+- Baseline: main `ee05c53`; branch `codex/refresh-contadino-settings-screenshots`.
+- Refreshed all nine served Contadino images from native release captures of app commit `04eb7b0d14ebd06dcdc862da24e6343d1bbb0c19`, including the Settings move in `2a024bf`. iPhone and iPad now show Settings in the tab navigation. Mac retains its platform-specific Settings window/menu, so its main window correctly has Timer and History only.
+- Preserved the current page copy, CSS, image dimensions, responsive art direction, device frames, and non-overlapping hero composition. The homepage inherits the refreshed iPhone image through product metadata.
+- Vision uses the previously reviewed native crop (`x=480, y=320, width=2880, height=1620`). The Mac image remains a genuine window composition over sourced Sonoma wallpaper, not a full-desktop capture. No App Store headline compositions or invented interface pixels were used.
+- All nine source captures matched their SHA-256 records. All nine optimized WebP outputs round-trip to the downsampled RGBA pixels exactly. Total served image bytes decreased from 10,211,606 to 6,623,816 (35.13%). Native image dimensions and transparent hardware edges are retained.
+- Baseline and final Jekyll builds passed using Ruby 3.3, Bundler, and the unchanged locked dependency set. The existing optional `faraday-retry` middleware warning is non-fatal.
+- Generated homepage and Contadino page checks passed: local targets resolve, all nine new asset references exist, reserved image dimensions match the files, and no stale Contadino PNG references remain in served HTML. `git diff --check` passed.
+- All nine image outputs were visually inspected. Responsive browser QA and fresh page-review screenshots are pending because the Mac is locked and automatic unlock failed. Earlier browser checks and screenshots above describe prior revisions, not this refresh. No new browser pass is claimed.
+- PR-only change. No merge or production deployment.
