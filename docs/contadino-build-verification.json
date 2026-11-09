@@ -1,38 +1,31 @@
 {
-  "jekyll": "bundle exec jekyll build passed",
-  "copyBlocksUnchanged": 24,
-  "viewports": [
+  "assetCount": 9,
+  "losslessPixelRoundTrips": 9,
+  "assetHashesAndBuiltCopiesVerified": 9,
+  "totalBytes": 6623816,
+  "previousTotalBytes": 10211606,
+  "reductionPercent": 35.13,
+  "pages": [
     {
-      "viewport": "desktop",
-      "width": 1440,
-      "scrollWidth": 1440,
-      "height": 4944,
-      "broken": [],
-      "errors": []
+      "page": "index.html",
+      "localTargetsResolved": 27,
+      "dimensionAttributesVerified": 1,
+      "uniqueContadinoAssets": 1
     },
     {
-      "viewport": "mobile",
-      "width": 390,
-      "scrollWidth": 390,
-      "height": 7136,
-      "broken": [],
-      "errors": []
-    },
-    {
-      "viewport": "home-desktop",
-      "width": 1440,
-      "scrollWidth": 1440,
-      "height": 1011,
-      "broken": [],
-      "errors": []
-    },
-    {
-      "viewport": "home-mobile",
-      "width": 390,
-      "scrollWidth": 390,
-      "height": 2357,
-      "broken": [],
-      "errors": []
+      "page": "Contadino/index.html",
+      "localTargetsResolved": 21,
+      "dimensionAttributesVerified": 10,
+      "uniqueContadinoAssets": 9
     }
-  ]
+  ],
+  "responsiveMarkupAndIntrinsicDimensions": "unchanged",
+  "visualAssetReview": "all nine outputs inspected",
+  "browserResponsiveQA": "pending: Mac is locked; automatic unlock failed",
+  "checksPassed": true,
+  "date": "2026-11-08",
+  "baseCommit": "ee05c53",
+  "jekyll": "Baseline and final bundle exec jekyll build passed with Ruby 3.3 and unchanged lockfile",
+  "browserViewports": [],
+  "independentReview": "No actionable findings; nine assets and generated markup verified. Responsive browser QA remains pending."
 }

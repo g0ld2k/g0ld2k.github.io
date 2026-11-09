@@ -1,55 +1,137 @@
 {
-  "appCommit": "e62f0e60fa03b33c4c3c42394af9f81eda859850",
-  "captureDate": "2026-10-31",
-  "processing": "Proportional downsampling only; authentic sandbox UI, no App Store banners or altered controls.",
+  "captureDate": "2026-11-08",
+  "appCommit": "04eb7b0d14ebd06dcdc862da24e6343d1bbb0c19",
+  "settingsMoveCommit": "2a024bf",
+  "fixture": {
+    "counts": [
+      2,
+      5,
+      3,
+      6,
+      3,
+      5,
+      4
+    ],
+    "selectedDaySessions": 4,
+    "selectedDayFocus": "1h43m",
+    "activeDayCompleted": 3,
+    "activeDayInterrupted": 1,
+    "timer": "15:00",
+    "totalSessions": 33
+  },
+  "processing": "Authentic release fixture captures with sourced hardware frames, proportionate scaling and lossless WebP compression. No App Store banners or invented UI. Mac is a genuine window composition; Vision uses the reviewed native crop.",
   "assets": [
     {
-      "asset": "assets/images/contadino/iphone-timer.png",
-      "source": "capture-duo-retry-1.4.0/iphone-medium/raw/01_Timer.png",
-      "sourceSHA256": "9c1d18c0ecca2fa71f300a12c94f4ae596197d427130ebad06fd938d661570b7",
-      "bytes": 481712
+      "asset": "assets/images/contadino/iphone-timer.webp",
+      "sources": [
+        {
+          "source": "iphone/raw/01_Timer.png",
+          "sourceSHA256": "6fc0452704ec4d0701dac1d371511e4dfc528a35bbe2397a5f298d7a7451723f",
+          "appCommit": "04eb7b0d14ebd06dcdc862da24e6343d1bbb0c19",
+          "method": "native XCUITest attachment"
+        }
+      ]
     },
     {
-      "asset": "assets/images/contadino/iphone-calm.png",
-      "source": "capture-duo-retry-1.4.0/iphone-medium/raw/04_Theme_CalmZen.png",
-      "sourceSHA256": "74eac8e2058715ce121fb128a858a32be779d02241d146e8a3a4d320c5333a00",
-      "bytes": 185585
+      "asset": "assets/images/contadino/iphone-history.webp",
+      "sources": [
+        {
+          "source": "iphone/raw/02_History.png",
+          "sourceSHA256": "f3ba3ac880473c1e5d1a0d5fb809ebbb84818615c2ae3876b4484c26dd3835f1",
+          "appCommit": "04eb7b0d14ebd06dcdc862da24e6343d1bbb0c19",
+          "method": "native XCUITest attachment"
+        }
+      ]
     },
     {
-      "asset": "assets/images/contadino/iphone-midnight.png",
-      "source": "capture-duo-retry-1.4.0/iphone-medium/raw/06_Theme_MidnightOwl.png",
-      "sourceSHA256": "2834cab8fbf81d6695543649433548ebf1dc2f2ed9171188c1831e6de2262faf",
-      "bytes": 167420
+      "asset": "assets/images/contadino/iphone-calm.webp",
+      "sources": [
+        {
+          "source": "iphone/raw/04_Theme_CalmZen.png",
+          "sourceSHA256": "40d55d245eeba9ad605edeae0ba09bc7a3c26728f119666eb260f08672dc403d",
+          "appCommit": "04eb7b0d14ebd06dcdc862da24e6343d1bbb0c19",
+          "method": "native XCUITest attachment"
+        }
+      ]
     },
     {
-      "asset": "assets/images/contadino/mac-history.png",
-      "source": "capture-mac-retry-1.4.0/mac/raw/02_History.png",
-      "sourceSHA256": "0c61b2df4f103e313f57ac6d6828adef329925ec346eda5b029359706a4a77a6",
-      "bytes": 1214653
+      "asset": "assets/images/contadino/iphone-midnight.webp",
+      "sources": [
+        {
+          "source": "iphone/raw/06_Theme_MidnightOwl.png",
+          "sourceSHA256": "852354deb7381dcf55aa1f021e75b2c6db6ae281736ed7f3056963a584cd8992",
+          "appCommit": "04eb7b0d14ebd06dcdc862da24e6343d1bbb0c19",
+          "method": "native XCUITest attachment"
+        }
+      ]
     },
     {
-      "asset": "assets/images/contadino/ipad-timer.png",
-      "source": "capture-remaining-1.4.0/ipad-13/raw/01_Timer.png",
-      "sourceSHA256": "d285f766e4ce1bb734d573e4d029695bc5f22bf7cee27bfb86b138814384da3b",
-      "bytes": 439685
+      "asset": "assets/images/contadino/mac-history.webp",
+      "sources": [
+        {
+          "source": "mac/raw/02_History.png",
+          "sourceSHA256": "ae379d43e3a8d947c66970d5f317c17200f6e0f9e89feb85cc458bd61c0dcfb3",
+          "appCommit": "04eb7b0d14ebd06dcdc862da24e6343d1bbb0c19",
+          "method": "native XCUITest attachment"
+        }
+      ],
+      "wallpaperSHA256": "4edd0bf58eb632d3986ab87af13c3087cce421f66ec6b99151fa51c6f9b5a5c4"
     },
     {
-      "asset": "assets/images/contadino/watch-timer.png",
-      "source": "capture-spatial-watch-1.4.0/watch/raw/01_Timer.png",
-      "sourceSHA256": "a784432d32d59ab48bf3ad0846cecb694ad86f7304780089c740a7b165a539b6",
-      "bytes": 195819
+      "asset": "assets/images/contadino/ipad-timer.webp",
+      "sources": [
+        {
+          "source": "ipad/raw/01_Timer.png",
+          "sourceSHA256": "ba8e5773b3fcd351cb18539e9eaddda4a36e3dd0532bc8e51f1a210e2fa008d4",
+          "appCommit": "04eb7b0d14ebd06dcdc862da24e6343d1bbb0c19",
+          "method": "native XCUITest attachment"
+        }
+      ]
     },
     {
-      "asset": "assets/images/contadino/vision-timer.png",
-      "source": "capture-spatial-watch-1.4.0/vision/raw/01_Timer.png",
-      "sourceSHA256": "03c356874ec30655ca3b1acfb3fce452e7924dd01aafce0b493b01da51e2dfc5",
-      "bytes": 813362
+      "asset": "assets/images/contadino/watch-timer.webp",
+      "sources": [
+        {
+          "source": "watch/raw/01_Timer.png",
+          "sourceSHA256": "89c8f7fe7699af9826614127dd8a2179e2bac551e267e97de1f62595b3a2dfa7",
+          "appCommit": "04eb7b0d14ebd06dcdc862da24e6343d1bbb0c19",
+          "method": "native XCUITest attachment"
+        }
+      ]
     },
     {
-      "asset": "assets/images/contadino/iphone-history.png",
-      "source": "capture-duo-retry-1.4.0/iphone-medium/raw/02_History.png",
-      "sourceSHA256": "a1318572e1c6c07f0e13f99caba1095acc8ce5eadb2401afd0b370ed926f9863",
-      "bytes": 364282
+      "asset": "assets/images/contadino/vision-timer.webp",
+      "sources": [
+        {
+          "source": "vision/raw/01_Timer.png",
+          "sourceSHA256": "698c9fc38bf3bb9331ddc1a430549b57dfc78813dd3bec11feb79086e08da56b",
+          "appCommit": "04eb7b0d14ebd06dcdc862da24e6343d1bbb0c19",
+          "method": "native visionOS Simulator scene with schema2 fixture receipts"
+        }
+      ],
+      "nativeCrop": {
+        "x": 480,
+        "y": 320,
+        "width": 2880,
+        "height": 1620
+      }
+    },
+    {
+      "asset": "assets/images/contadino/hero-devices.webp",
+      "sources": [
+        {
+          "source": "mac/raw/02_History.png",
+          "sourceSHA256": "ae379d43e3a8d947c66970d5f317c17200f6e0f9e89feb85cc458bd61c0dcfb3",
+          "appCommit": "04eb7b0d14ebd06dcdc862da24e6343d1bbb0c19",
+          "method": "native XCUITest attachment"
+        },
+        {
+          "source": "iphone/raw/01_Timer.png",
+          "sourceSHA256": "6fc0452704ec4d0701dac1d371511e4dfc528a35bbe2397a5f298d7a7451723f",
+          "appCommit": "04eb7b0d14ebd06dcdc862da24e6343d1bbb0c19",
+          "method": "native XCUITest attachment"
+        }
+      ]
     }
   ]
 }
