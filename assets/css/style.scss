@@ -52,7 +52,7 @@ svg { flex-shrink: 0; }
 .home-intro p { font-size: clamp(18px, 1.7vw, 26px); line-height: 1.4; }
 .app-index { display: none; }
 .app-shelf { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.theme-zoner { --edition: var(--raspberry); --edition-ink: #ffffff; }
+.theme-zoneroo { --edition: var(--raspberry); --edition-ink: #ffffff; }
 .theme-contadino { --edition: var(--yellow); --edition-ink: #151518; }
 .theme-distance { --edition: var(--blue); --edition-ink: #ffffff; }
 .app-edition { min-width: 0; min-height: max(680px, calc(100svh - 280px)); padding: 44px clamp(24px, 2.9vw, 44px) 30px; background: var(--edition); color: var(--edition-ink); display: flex; flex-direction: column; }
@@ -98,6 +98,11 @@ svg { flex-shrink: 0; }
 .product-body { max-width: var(--content-width); margin: 0 auto; padding: 72px var(--gutter) 32px; }
 .product-introduction { max-width: 64ch; font-size: clamp(21px, 2vw, 27px); line-height: 1.65; }
 .product-introduction strong { font-weight: 600; }
+.product-screenshots { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 18rem); gap: 32px; align-items: center; margin-top: 48px; }
+.product-screenshots figure:last-child { width: 100%; max-width: 18rem; justify-self: center; }
+.product-screenshots a { display: block; }
+.product-screenshots img { width: 100%; border-radius: 12px; }
+.product-screenshots figcaption { margin-top: 12px; font-size: 16px; color: var(--muted); }
 .feature-section { margin-top: 72px; display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 56px; align-items: start; }
 .feature-section h2 { font-size: clamp(28px, 2.6vw, 38px); max-width: 16ch; }
 .feature { padding: 0 0 24px; margin-bottom: 24px; border-bottom: 1px solid var(--line); }
@@ -148,6 +153,7 @@ svg { flex-shrink: 0; }
   .product-close { align-items: flex-start; flex-direction: column; }
 }
 @media (max-width: 760px) {
+  .product-screenshots { grid-template-columns: minmax(0, 1fr); }
   .site-nav { flex-wrap: wrap; gap: 4px 20px; padding-block: 12px; min-height: 76px; }
   .brand { font-size: 27px; }
   .nav-links { gap: 18px; }

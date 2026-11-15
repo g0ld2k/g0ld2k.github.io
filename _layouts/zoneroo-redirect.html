@@ -1,0 +1,17 @@
+{% assign destination = page.destination | relative_url %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Continue to Zoneroo</title>
+  <script>
+    window.location.replace({{ destination | jsonify }} + window.location.search + window.location.hash);
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url={{ destination | escape }}"></noscript>
+</head>
+<body>
+  <p><a href="{{ destination }}">Continue to Zoneroo</a></p>
+</body>
+</html>

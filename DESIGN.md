@@ -101,7 +101,7 @@ Saturated, cheerful app accents sit against simple white and near-black neutrals
 
 ### Primary
 
-- **Raspberry:** Zoner panels and product hero; also the global caret accent.
+- **Raspberry:** Zoneroo panels and product hero; also the global caret accent.
 
 ### Secondary
 

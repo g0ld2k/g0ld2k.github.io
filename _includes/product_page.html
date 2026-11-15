@@ -21,6 +21,18 @@
     <section class="product-introduction" aria-label="About {{ page.title }}">
       <p><strong>{{ product.intro_lead }}</strong> {{ product.intro_body }}</p>
     </section>
+    {% if include.screenshots %}
+    <div class="product-screenshots">
+      {% for screenshot in include.screenshots %}
+      <figure>
+        <a href="{{ screenshot.image | relative_url }}">
+          <img src="{{ screenshot.image | relative_url }}" alt="{{ screenshot.alt | escape }}" width="{{ screenshot.width }}" height="{{ screenshot.height }}" loading="lazy" decoding="async">
+        </a>
+        <figcaption>{{ screenshot.caption }}</figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+    {% endif %}
     <section class="feature-section" aria-labelledby="features-title">
       <h2 id="features-title">{{ product.feature_heading }}</h2>
       <dl class="feature-list">
