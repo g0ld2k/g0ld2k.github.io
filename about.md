@@ -1,7 +1,7 @@
 ---
 layout: document
 title: Hi, I’m Chris.
-description: The independent developer behind Zoner, Contadino, and Distance Track.
+description: The independent developer behind Zoneroo, Contadino, and Distance Track.
 permalink: /about/
 ---
 
@@ -9,7 +9,7 @@ I make apps for problems I keep running into: finding time to focus, keeping up 
 
 These are my apps, built independently for Apple devices:
 
-- [Zoner](/Zoner/) helps you find a good time across time zones, with people, groups, and working-hours awareness.
+- [Zoneroo](/Zoneroo/) shows local times and working hours for the people and places you care about.
 - [Contadino](/Contadino/) tracks focus sessions and interruptions, so you can see how your workday went.
 - [Distance Track](/DistanceTrack/) brings your walking, running, and cycling workouts into distance goals.
 

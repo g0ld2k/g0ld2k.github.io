@@ -1,6 +1,6 @@
 ---
 layout: default
-description: Independent Apple apps by Chris. Explore Zoner, Contadino, and Distance Track.
+description: Independent Apple apps by Chris. Explore Zoneroo, Contadino, and Distance Track.
 ---
 
 <section class="home-intro" aria-labelledby="intro-title">
