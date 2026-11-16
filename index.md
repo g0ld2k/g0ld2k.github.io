@@ -18,15 +18,16 @@ description: Independent Apple apps by Chris. Explore Zoneroo, Contadino, and Di
 <section class="app-shelf" aria-label="Explore my apps">
   {% for app in apps %}
   {% assign product = app.product %}
+  {% assign media = product.shelf_media | default: product %}
   <article class="app-edition theme-{{ product.theme }}" aria-labelledby="{{ product.theme }}-title">
     <div class="edition-copy">
       <h2 id="{{ product.theme }}-title"><a href="{{ app.url | relative_url }}">{{ app.title }}</a></h2>
       <p>{{ product.shelf_summary }}</p>
     </div>
-    <a class="edition-media{% if product.media_phone %} edition-media-phone{% endif %}" href="{{ app.url | relative_url }}" tabindex="-1" aria-hidden="true">
+    <a class="edition-media{% if media.media_phone %} edition-media-phone{% endif %}" href="{{ app.url | relative_url }}" tabindex="-1" aria-hidden="true">
       <picture>
-        <source srcset="{{ product.image_srcset }}" sizes="(max-width: 760px) 94vw, 33vw">
-        <img src="{{ product.image | relative_url }}" alt="" width="{{ product.image_width }}" height="{{ product.image_height }}" decoding="async" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}" fetchpriority="{% if forloop.first %}high{% else %}auto{% endif %}">
+        <source srcset="{{ media.image_srcset }}" sizes="{{ media.sizes | default: '(max-width: 760px) 94vw, 33vw' }}">
+        <img src="{{ media.image | relative_url }}" alt="" width="{{ media.image_width }}" height="{{ media.image_height }}" decoding="async" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}" fetchpriority="{% if forloop.first %}high{% else %}auto{% endif %}">
       </picture>
     </a>
     <div class="edition-details">

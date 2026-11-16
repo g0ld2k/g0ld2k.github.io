@@ -6,6 +6,13 @@ description: See local times and working hours for friends, family, and teammate
 product:
   theme: zoneroo
   shelf_summary: Find a good time across time zones.
+  shelf_media:
+    image: /assets/images/zoneroo/shelf-800.webp
+    image_srcset: "/assets/images/zoneroo/shelf-400.webp 400w, /assets/images/zoneroo/shelf-800.webp 800w"
+    image_width: 800
+    image_height: 1649
+    sizes: 185px
+    media_phone: true
   platforms: Mac · iPhone · iPad
   availability: Beta · TestFlight
   hero_title: See the time for the people and places you care about.
