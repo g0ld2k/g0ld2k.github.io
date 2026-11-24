@@ -10,7 +10,7 @@ product:
     image: /assets/images/zoneroo/shelf-800.webp
     image_srcset: "/assets/images/zoneroo/shelf-400.webp 400w, /assets/images/zoneroo/shelf-800.webp 800w"
     image_width: 800
-    image_height: 1649
+    image_height: 1636
     sizes: 185px
     media_phone: true
   platforms: Mac · iPhone · iPad
